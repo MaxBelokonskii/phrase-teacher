@@ -1,0 +1,74 @@
+import { createRouter, createWebHashHistory } from 'vue-router'
+import type { RouteRecordRaw } from 'vue-router'
+
+const routes: RouteRecordRaw[] = [
+  {
+    path: '/',
+    name: 'home',
+    component: () => import('@/views/HomeView.vue'),
+    meta: { title: 'Главная' },
+  },
+  {
+    path: '/category/:id',
+    name: 'category',
+    component: () => import('@/views/CategoryView.vue'),
+    meta: { title: 'Категория' },
+    props: true,
+  },
+  {
+    path: '/learn/:category',
+    name: 'learn',
+    component: () => import('@/views/LearnView.vue'),
+    meta: { title: 'Учить' },
+    props: true,
+  },
+  {
+    path: '/quiz/:category',
+    name: 'quiz',
+    component: () => import('@/views/QuizView.vue'),
+    meta: { title: 'Тест' },
+    props: true,
+  },
+  {
+    path: '/results',
+    name: 'results',
+    component: () => import('@/views/ResultsView.vue'),
+    meta: { title: 'Результат' },
+  },
+  {
+    path: '/phrasebook',
+    name: 'phrasebook',
+    component: () => import('@/views/PhrasebookView.vue'),
+    meta: { title: 'Разговорник' },
+  },
+  {
+    path: '/my',
+    name: 'my-phrases',
+    component: () => import('@/views/MyPhrasesView.vue'),
+    meta: { title: 'Мои фразы' },
+  },
+  {
+    path: '/settings',
+    name: 'settings',
+    component: () => import('@/views/SettingsView.vue'),
+    meta: { title: 'Настройки' },
+  },
+  {
+    path: '/:catchAll(.*)',
+    redirect: '/',
+  },
+]
+
+export const router = createRouter({
+  history: createWebHashHistory(),
+  routes,
+  scrollBehavior() {
+    return { top: 0 }
+  },
+})
+
+router.afterEach((to) => {
+  const base = 'Phrase Teacher'
+  const title = to.meta?.title as string | undefined
+  document.title = title ? `${title} · ${base}` : base
+})
