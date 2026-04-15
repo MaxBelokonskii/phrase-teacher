@@ -5,7 +5,7 @@ import { useSettingsStore } from '@/stores/useSettingsStore'
 import { useProgressStore } from '@/stores/useProgressStore'
 import { usePhrasesStore } from '@/stores/usePhrasesStore'
 import { useExportImport } from '@/composables/useExportImport'
-import { useSpeech } from '@/composables/useSpeech'
+import { useSpeech, scoreVoice } from '@/composables/useSpeech'
 import AppButton from '@/components/ui/AppButton.vue'
 import AppSelect from '@/components/ui/AppSelect.vue'
 import type { ThemeMode } from '@/types'
@@ -14,7 +14,7 @@ const settings = useSettingsStore()
 const progress = useProgressStore()
 const phrases = usePhrasesStore()
 const { exportAll, importFromFile } = useExportImport()
-const { englishVoices, isSupported, pronounce } = useSpeech()
+const { englishVoices, bestVoice, isSupported, pronounce } = useSpeech()
 
 const fileInput = useTemplateRef<HTMLInputElement>('fileInput')
 const importMessage = ref<{ kind: 'success' | 'error'; text: string } | null>(null)
@@ -25,13 +25,20 @@ const themeOptions = [
   { value: 'dark', label: 'Тёмная' },
 ] as const
 
-const voiceOptions = computed(() => [
-  { value: '', label: 'По умолчанию (системный)' },
-  ...englishVoices.value.map((v) => ({
-    value: v.name,
-    label: `${v.name} (${v.lang})`,
-  })),
-])
+const voiceOptions = computed(() => {
+  // Sort English voices by quality so the most natural ones bubble to the top.
+  const ranked = [...englishVoices.value].sort((a, b) => scoreVoice(b) - scoreVoice(a))
+  const autoLabel = bestVoice.value
+    ? `Авто — ${bestVoice.value.name} (${bestVoice.value.lang})`
+    : 'Авто (системный голос)'
+  return [
+    { value: '', label: autoLabel },
+    ...ranked.map((v) => ({
+      value: v.name,
+      label: `${v.name} (${v.lang})`,
+    })),
+  ]
+})
 
 const ttsRateLabel = computed(() => {
   const v = settings.ttsRate
