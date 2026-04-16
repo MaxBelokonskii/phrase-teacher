@@ -16,7 +16,7 @@ const themeLabel = computed(() => {
 
 <template>
   <header class="sticky top-0 z-30 backdrop-blur bg-surface-base/85 dark:bg-surface-base-dark/85 border-b border-slate-200/60 dark:border-slate-800/60">
-    <div class="w-full max-w-3xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-3">
+    <div class="w-full max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-3">
       <RouterLink
         :to="{ name: 'home' }"
         class="flex items-center gap-2 group cursor-pointer"
