@@ -1,14 +1,16 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useRoute, useRouter, RouterLink } from 'vue-router'
-import { ChevronLeft, GraduationCap, Brain, CheckCircle2, Circle, Star, Volume2 } from 'lucide-vue-next'
+import { ChevronLeft, GraduationCap, Brain, CheckCircle2, Circle, Star, Volume2, Maximize2 } from 'lucide-vue-next'
 import { getCategoryById } from '@/data/categories'
 import { usePhrasesStore } from '@/stores/usePhrasesStore'
 import { useProgressStore } from '@/stores/useProgressStore'
 import { useSpeech } from '@/composables/useSpeech'
+import type { Phrase } from '@/types'
 import AppButton from '@/components/ui/AppButton.vue'
 import ProgressRing from '@/components/ProgressRing.vue'
 import CategoryIcon from '@/components/CategoryIcon.vue'
+import ShowScreen from '@/components/ShowScreen.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -47,6 +49,13 @@ function speakPhrase(text: string, event: Event) {
 function toggleStar(phraseId: string, event: Event) {
   event.stopPropagation()
   progress.toggleStar(phraseId)
+}
+
+const showScreenPhrase = ref<Phrase | null>(null)
+
+function openShowScreen(phrase: Phrase, event: Event) {
+  event.stopPropagation()
+  showScreenPhrase.value = phrase
 }
 </script>
 
@@ -132,6 +141,14 @@ function toggleStar(phraseId: string, event: Event) {
             </button>
             <button
               type="button"
+              class="inline-flex items-center justify-center w-9 h-9 rounded-lg text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+              aria-label="Показать на экране"
+              @click="(e) => openShowScreen(phrase, e)"
+            >
+              <Maximize2 class="w-4 h-4" />
+            </button>
+            <button
+              type="button"
               class="inline-flex items-center justify-center w-9 h-9 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
               :class="progress.isStarred(phrase.id) ? 'text-cta-500' : 'text-slate-400 dark:text-slate-500'"
               :aria-label="progress.isStarred(phrase.id) ? 'Убрать из избранного' : 'Добавить в избранное'"
@@ -143,5 +160,7 @@ function toggleStar(phraseId: string, event: Event) {
         </li>
       </ul>
     </section>
+
+    <ShowScreen v-if="showScreenPhrase" :phrase="showScreenPhrase" @close="showScreenPhrase = null" />
   </div>
 </template>
