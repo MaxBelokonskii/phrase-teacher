@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { Search, Volume2, Star, X } from 'lucide-vue-next'
+import { Search, Volume2, Star, X, Maximize2 } from 'lucide-vue-next'
 import { categories, getCategoryById } from '@/data/categories'
 import { usePhrasesStore } from '@/stores/usePhrasesStore'
 import { useProgressStore } from '@/stores/useProgressStore'
 import { useSpeech } from '@/composables/useSpeech'
 import { normalize } from '@/utils/normalize'
+import type { Phrase } from '@/types'
 import AppSelect from '@/components/ui/AppSelect.vue'
+import ShowScreen from '@/components/ShowScreen.vue'
 
 const phrasesStore = usePhrasesStore()
 const progress = useProgressStore()
@@ -43,6 +45,13 @@ function speak(text: string, event: Event) {
 function toggleStar(id: string, event: Event) {
   event.stopPropagation()
   progress.toggleStar(id)
+}
+
+const showScreenPhrase = ref<Phrase | null>(null)
+
+function openShowScreen(phrase: Phrase, event: Event) {
+  event.stopPropagation()
+  showScreenPhrase.value = phrase
 }
 
 function clearQuery() {
@@ -126,6 +135,14 @@ function clearQuery() {
           </button>
           <button
             type="button"
+            class="inline-flex items-center justify-center w-9 h-9 rounded-lg text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+            aria-label="Показать на экране"
+            @click="(e) => openShowScreen(phrase, e)"
+          >
+            <Maximize2 class="w-4 h-4" />
+          </button>
+          <button
+            type="button"
             class="inline-flex items-center justify-center w-9 h-9 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
             :class="progress.isStarred(phrase.id) ? 'text-cta-500' : 'text-slate-400 dark:text-slate-500'"
             :aria-label="progress.isStarred(phrase.id) ? 'Убрать из избранного' : 'Добавить в избранное'"
@@ -139,5 +156,7 @@ function clearQuery() {
     <div v-else class="card p-8 text-center">
       <p class="text-muted">Ничего не найдено. Попробуйте изменить поиск или фильтр.</p>
     </div>
+
+    <ShowScreen v-if="showScreenPhrase" :phrase="showScreenPhrase" @close="showScreenPhrase = null" />
   </div>
 </template>
