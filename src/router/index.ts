@@ -48,6 +48,19 @@ const routes: RouteRecordRaw[] = [
     meta: { title: 'Мои фразы' },
   },
   {
+    path: '/scenarios',
+    name: 'scenarios',
+    component: () => import('@/views/ScenariosView.vue'),
+    meta: { title: 'Сценарии' },
+  },
+  {
+    path: '/scenarios/:id',
+    name: 'scenario',
+    component: () => import('@/views/ScenarioDetailView.vue'),
+    meta: { title: 'Сценарий' },
+    props: true,
+  },
+  {
     path: '/numbers',
     name: 'numbers',
     component: () => import('@/views/NumberView.vue'),
