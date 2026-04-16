@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { RotateCcw, Check, XCircle, Volume2, TrendingDown } from 'lucide-vue-next'
+import { RotateCcw, Check, XCircle, Volume2, TrendingDown, Award } from 'lucide-vue-next'
 import { useProgressStore } from '@/stores/useProgressStore'
 import { usePhrasesStore } from '@/stores/usePhrasesStore'
 import { useSpeech } from '@/composables/useSpeech'
+import { useBadges } from '@/composables/useBadges'
 import { getCategoryById } from '@/data/categories'
 import AppButton from '@/components/ui/AppButton.vue'
 
@@ -12,6 +13,7 @@ const router = useRouter()
 const progress = useProgressStore()
 const phrases = usePhrasesStore()
 const { pronounce, isSupported } = useSpeech()
+const { badges, earnedCount, totalCount } = useBadges()
 
 interface WeakPhrase {
   id: string
@@ -103,6 +105,29 @@ function retryWeak() {
           <span class="font-display font-bold text-lg text-rose-500 tabular-nums">{{ totalIncorrect }}</span>
         </div>
         <p class="text-xs text-muted mt-1">Верно / Ошибок</p>
+      </div>
+    </section>
+
+    <!-- Badges -->
+    <section class="space-y-3">
+      <div class="flex items-center gap-2">
+        <Award class="w-5 h-5 text-cta-500" />
+        <h2 class="heading-3">Достижения</h2>
+        <span class="text-xs text-muted ml-auto tabular-nums">{{ earnedCount }} / {{ totalCount }}</span>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+        <div
+          v-for="badge in badges"
+          :key="badge.id"
+          class="card p-3 text-center transition-all duration-200"
+          :class="badge.earned
+            ? 'ring-2 ring-cta-500/30 bg-cta-50/50 dark:bg-cta-900/20'
+            : 'opacity-40 grayscale'"
+        >
+          <span class="text-2xl">{{ badge.icon }}</span>
+          <p class="font-display font-semibold text-sm mt-1.5 leading-tight">{{ badge.title }}</p>
+          <p class="text-[11px] text-muted mt-0.5 leading-snug">{{ badge.description }}</p>
+        </div>
       </div>
     </section>
 
