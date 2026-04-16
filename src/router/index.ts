@@ -48,6 +48,12 @@ const routes: RouteRecordRaw[] = [
     meta: { title: 'Мои фразы' },
   },
   {
+    path: '/numbers',
+    name: 'numbers',
+    component: () => import('@/views/NumberView.vue'),
+    meta: { title: 'Числа' },
+  },
+  {
     path: '/stats',
     name: 'stats',
     component: () => import('@/views/StatsView.vue'),

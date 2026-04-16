@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { RouterLink } from 'vue-router'
-import { Sparkles, Trophy, Search, BookOpenCheck, CalendarCheck, Volume2, Maximize2 } from 'lucide-vue-next'
+import { Sparkles, Trophy, Search, BookOpenCheck, CalendarCheck, Volume2, Maximize2, Hash } from 'lucide-vue-next'
 import { categories, getCategoryById } from '@/data/categories'
 import { useProgressStore } from '@/stores/useProgressStore'
 import { usePhrasesStore } from '@/stores/usePhrasesStore'
@@ -97,6 +97,18 @@ const showScreenPhrase = ref<Phrase | null>(null)
         <div class="flex flex-col">
           <span class="font-display font-semibold text-sm">Мои фразы</span>
           <span class="text-xs text-muted">Добавить свои</span>
+        </div>
+      </RouterLink>
+      <RouterLink
+        :to="{ name: 'numbers' }"
+        class="card-interactive p-4 flex items-center gap-3 col-span-2 sm:col-span-1"
+      >
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400">
+          <Hash class="w-5 h-5" />
+        </span>
+        <div class="flex flex-col">
+          <span class="font-display font-semibold text-sm">Числа</span>
+          <span class="text-xs text-muted">Как сказать число по-английски</span>
         </div>
       </RouterLink>
     </section>
