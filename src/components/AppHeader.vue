@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
-import { Sun, Moon, Settings as SettingsIcon, MonitorSmartphone, Home, BookOpen, PlusCircle } from 'lucide-vue-next'
+import { Sun, Moon, Settings as SettingsIcon, MonitorSmartphone, Home, BookOpen, PlusCircle, BarChart3 } from 'lucide-vue-next'
 import { useSettingsStore } from '@/stores/useSettingsStore'
 import { useDarkMode } from '@/composables/useDarkMode'
 
@@ -52,6 +52,14 @@ const themeLabel = computed(() => {
         >
           <PlusCircle class="w-4 h-4" />
           Мои фразы
+        </RouterLink>
+        <RouterLink
+          :to="{ name: 'stats' }"
+          class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors flex items-center gap-1.5"
+          active-class="bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300 font-medium"
+        >
+          <BarChart3 class="w-4 h-4" />
+          Статистика
         </RouterLink>
       </nav>
 
