@@ -34,7 +34,9 @@
     "phonetic": "/haʊ ɑːr juː/",
     "note": "Стандартный smalltalk. Обычно отвечают 'Fine, thanks. And you?'",
     "difficulty": 1,
-    "alternatives": ["How's it going?"]
+    "alternatives": [
+      "How's it going?"
+    ]
   },
   {
     "id": "greetings_005",
@@ -44,7 +46,9 @@
     "phonetic": "/θæŋk juː/",
     "note": "По-турецки: 'Tesekkur ederim' (тэшэкюр эдерим). Маленькая турецкая фраза очень располагает местных.",
     "difficulty": 1,
-    "alternatives": ["Thanks!"]
+    "alternatives": [
+      "Thanks!"
+    ]
   },
   {
     "id": "greetings_006",
@@ -117,7 +121,9 @@
     "phonetic": "/ɡʊdˈbaɪ/",
     "note": "Универсальное прощание. По-турецки: 'Gule gule' (если вы остаётесь) или 'Hosca kal' (если уходите).",
     "difficulty": 1,
-    "alternatives": ["Bye"]
+    "alternatives": [
+      "Bye"
+    ]
   },
   {
     "id": "greetings_014",
@@ -136,9 +142,10 @@
     "phonetic": "/kʊd juː spiːk mɔːr ˈsloʊli pliːz/",
     "note": "Спасает, когда собеседник тараторит. Вежливая форма.",
     "difficulty": 2,
-    "alternatives": ["Can you speak slower, please?"]
+    "alternatives": [
+      "Can you speak slower, please?"
+    ]
   },
-
   {
     "id": "airport_001",
     "category": "airport",
@@ -165,7 +172,10 @@
     "phonetic": "/aɪm hɪər fɔːr ˈtʊərɪzəm/",
     "note": "Стандартный ответ на паспортном контроле на вопрос о цели визита.",
     "difficulty": 1,
-    "alternatives": ["I'm here as a tourist", "Tourism"]
+    "alternatives": [
+      "I'm here as a tourist",
+      "Tourism"
+    ]
   },
   {
     "id": "airport_004",
@@ -211,7 +221,9 @@
     "phonetic": "/wɛr ɪz ðə ˌeɪˌtiːˈɛm/",
     "note": "Сразу в зоне прилёта. Снимайте лиры (TRY), а не USD/EUR.",
     "difficulty": 1,
-    "alternatives": ["Where can I find an ATM?"]
+    "alternatives": [
+      "Where can I find an ATM?"
+    ]
   },
   {
     "id": "airport_009",
@@ -276,7 +288,6 @@
     "note": "В IST — единый терминал. В Sabiha Gokcen (SAW) внутренний и международный близко.",
     "difficulty": 2
   },
-
   {
     "id": "transport_001",
     "category": "transport",
@@ -412,7 +423,6 @@
     "note": "Можно попросить у ресепшн отеля или официанта в кафе. BiTaksi — местный аналог Uber.",
     "difficulty": 2
   },
-
   {
     "id": "hotel_001",
     "category": "hotel",
@@ -421,7 +431,9 @@
     "phonetic": "/aɪ hæv ə ˌrɛzərˈveɪʃən fɔːr təˈnaɪt/",
     "note": "Стандартная фраза при заселении. Имейте подтверждение брони и паспорт.",
     "difficulty": 2,
-    "alternatives": ["I have a booking for tonight"]
+    "alternatives": [
+      "I have a booking for tonight"
+    ]
   },
   {
     "id": "hotel_002",
@@ -549,7 +561,6 @@
     "note": "Турки очень ценят благодарность за гостеприимство — это часть культуры.",
     "difficulty": 2
   },
-
   {
     "id": "restaurant_001",
     "category": "restaurant",
@@ -585,7 +596,9 @@
     "phonetic": "/aɪl hæv ðɪs/",
     "note": "Можно показывать пальцем в меню — официанты привыкли.",
     "difficulty": 1,
-    "alternatives": ["I'll take this"]
+    "alternatives": [
+      "I'll take this"
+    ]
   },
   {
     "id": "restaurant_005",
@@ -640,7 +653,10 @@
     "phonetic": "/ðə bɪl pliːz/",
     "note": "Можно жестом — нарисовать в воздухе прямоугольник. По-турецки: 'Hesap, lutfen'.",
     "difficulty": 1,
-    "alternatives": ["Check, please", "Can I have the bill?"]
+    "alternatives": [
+      "Check, please",
+      "Can I have the bill?"
+    ]
   },
   {
     "id": "restaurant_011",
@@ -650,7 +666,9 @@
     "phonetic": "/ɪz ðə tɪp ɪnˈkluːdɪd/",
     "note": "В Турции чаевые (~10%) обычно НЕ включены в счёт. Принято оставлять.",
     "difficulty": 2,
-    "alternatives": ["Is service included?"]
+    "alternatives": [
+      "Is service included?"
+    ]
   },
   {
     "id": "restaurant_012",
@@ -678,7 +696,9 @@
     "phonetic": "/kæn aɪ teɪk ðɪs tuː ɡoʊ/",
     "note": "В Турции упаковывают охотно. По-турецки: 'paket' (паке́т).",
     "difficulty": 2,
-    "alternatives": ["Can I get this to take away?"]
+    "alternatives": [
+      "Can I get this to take away?"
+    ]
   },
   {
     "id": "restaurant_015",
@@ -688,9 +708,11 @@
     "phonetic": "/wɛr ɪz ðə ˈrɛstruːm/",
     "note": "По-турецки: 'tuvalet'. В кафе обычно вниз по лестнице.",
     "difficulty": 1,
-    "alternatives": ["Where is the toilet?", "Where's the bathroom?"]
+    "alternatives": [
+      "Where is the toilet?",
+      "Where's the bathroom?"
+    ]
   },
-
   {
     "id": "streetfood_001",
     "category": "streetfood",
@@ -771,7 +793,9 @@
     "phonetic": "/aɪl teɪk ɪt tuː ɡoʊ/",
     "note": "Большинство уличной еды и так берут на ходу.",
     "difficulty": 1,
-    "alternatives": ["To go, please"]
+    "alternatives": [
+      "To go, please"
+    ]
   },
   {
     "id": "streetfood_010",
@@ -827,7 +851,6 @@
     "note": "Уличные продавцы оценят искренний комплимент.",
     "difficulty": 1
   },
-
   {
     "id": "shopping_001",
     "category": "shopping",
@@ -854,7 +877,10 @@
     "phonetic": "/kæn juː ɡɪv miː ə ˈbɛtər praɪs/",
     "note": "На Гранд-Базаре торг — норма. Начинайте с 50% от запрошенной цены.",
     "difficulty": 2,
-    "alternatives": ["Can you lower the price?", "Do you have any discount?"]
+    "alternatives": [
+      "Can you lower the price?",
+      "Do you have any discount?"
+    ]
   },
   {
     "id": "shopping_004",
@@ -964,7 +990,6 @@
     "note": "В магазинах поменьше помогает свериться с курсом.",
     "difficulty": 1
   },
-
   {
     "id": "sightseeing_001",
     "category": "sightseeing",
@@ -973,7 +998,9 @@
     "phonetic": "/haʊ mʌtʃ ɪz ðə ˈɛntri/",
     "note": "В большинство музеев Стамбула вход платный. Айя-София с 2020 — снова мечеть, вход бесплатный.",
     "difficulty": 1,
-    "alternatives": ["How much is the ticket?"]
+    "alternatives": [
+      "How much is the ticket?"
+    ]
   },
   {
     "id": "sightseeing_002",
@@ -1101,7 +1128,6 @@
     "note": "В большинстве музеев есть. Возьмите ISIC-карту или студенческий.",
     "difficulty": 2
   },
-
   {
     "id": "money_time_001",
     "category": "money_time",
@@ -1237,7 +1263,6 @@
     "note": "Полезно при разговоре с отелем, гидом, новыми знакомыми.",
     "difficulty": 1
   },
-
   {
     "id": "emergency_001",
     "category": "emergency",
@@ -1373,7 +1398,6 @@
     "note": "Если ваш телефон умер, а нужно срочно позвонить.",
     "difficulty": 2
   },
-
   {
     "id": "turkish_001",
     "category": "turkish",
@@ -1391,7 +1415,9 @@
     "phonetic": "/tɛʃɛkˈkyɾ ɛdɛˈɾim/",
     "note": "Полная форма благодарности. Короткая версия — 'Teşekkürler' (тэшэккюрлер). Произносите как получается — оценят сам факт.",
     "difficulty": 1,
-    "alternatives": ["Teşekkürler"]
+    "alternatives": [
+      "Teşekkürler"
+    ]
   },
   {
     "id": "turkish_003",
@@ -1428,7 +1454,9 @@
     "phonetic": "/ɑfːɛdɛɾsiˈniz/",
     "note": "Вежливое обращение к незнакомцу. Более короткий вариант 'Pardon' тоже понимают.",
     "difficulty": 2,
-    "alternatives": ["Pardon"]
+    "alternatives": [
+      "Pardon"
+    ]
   },
   {
     "id": "turkish_007",
@@ -1438,7 +1466,9 @@
     "phonetic": "/ɡyˈlɛ ɡyˈlɛ/",
     "note": "Говорит тот, кто остаётся. Тот, кто уходит, говорит 'Hoşça kal' (хошча каль). Но 'Güle güle' поймут в любом случае.",
     "difficulty": 1,
-    "alternatives": ["Hoşça kal"]
+    "alternatives": [
+      "Hoşça kal"
+    ]
   },
   {
     "id": "turkish_008",
@@ -1475,7 +1505,9 @@
     "phonetic": "/jɑɾˈdɯm/",
     "note": "В экстренной ситуации. 'Yardım edin!' (ярдым эдин) — более полная форма: 'Помогите мне!'",
     "difficulty": 2,
-    "alternatives": ["Yardım edin!"]
+    "alternatives": [
+      "Yardım edin!"
+    ]
   },
   {
     "id": "turkish_012",
@@ -1511,6 +1543,1176 @@
     "en": "Buyurun.",
     "phonetic": "/bujuˈɾun/",
     "note": "Многозначное слово: 'пожалуйста' (в ответ на спасибо), 'прошу вас' (приглашение войти/сесть), 'вот, держите' (при передаче). Услышите его постоянно.",
+    "difficulty": 2
+  },
+  {
+    "id": "greetings_016",
+    "category": "greetings",
+    "ru": "Рад вас видеть!",
+    "en": "Nice to see you!",
+    "phonetic": "/naɪs tə siː juː/",
+    "note": "Тёплое приветствие при повторной встрече — например, с хозяином отеля или гидом.",
+    "difficulty": 1
+  },
+  {
+    "id": "greetings_017",
+    "category": "greetings",
+    "ru": "Как вы поживаете?",
+    "en": "How have you been?",
+    "phonetic": "/haʊ hæv juː biːn/",
+    "note": "Более тёплая версия 'How are you?' — подразумевает, что вы уже знакомы.",
+    "difficulty": 2
+  },
+  {
+    "id": "greetings_018",
+    "category": "greetings",
+    "ru": "Приятно познакомиться.",
+    "en": "It's a pleasure to meet you.",
+    "phonetic": "/ɪts ə ˈplɛʒər tə miːt juː/",
+    "note": "Формальная версия 'Nice to meet you'. Уместна при знакомстве с деловыми партнёрами или хозяином виллы.",
+    "difficulty": 2
+  },
+  {
+    "id": "greetings_019",
+    "category": "greetings",
+    "ru": "Хорошего вам дня!",
+    "en": "Have a wonderful day!",
+    "phonetic": "/hæv ə ˈwʌndərfəl deɪ/",
+    "note": "Вежливое прощание — продавцы в Стамбуле часто говорят 'İyi günler' (хорошего дня).",
+    "difficulty": 1
+  },
+  {
+    "id": "greetings_020",
+    "category": "greetings",
+    "ru": "Позвольте представиться — меня зовут...",
+    "en": "Allow me to introduce myself — my name is...",
+    "phonetic": "/əˈlaʊ miː tə ˌɪntrəˈdjuːs maɪˈsɛlf maɪ neɪm ɪz/",
+    "note": "Формальное представление. Полезно на деловой встрече или при заселении в бутик-отель.",
+    "difficulty": 3
+  },
+  {
+    "id": "airport_016",
+    "category": "airport",
+    "ru": "У меня пересадка в этом аэропорту.",
+    "en": "I have a layover at this airport.",
+    "phonetic": "/aɪ hæv ə ˈleɪˌoʊvər æt ðɪs ˈɛrˌpɔːrt/",
+    "note": "Аэропорт Стамбула — крупный хаб; пересадки здесь очень распространены.",
+    "difficulty": 2
+  },
+  {
+    "id": "airport_017",
+    "category": "airport",
+    "ru": "Мой рейс задерживается. На сколько?",
+    "en": "My flight is delayed. By how long?",
+    "phonetic": "/maɪ flaɪt ɪz dɪˈleɪd baɪ haʊ lɒŋ/",
+    "note": "Зимой в Стамбуле задержки из-за тумана — обычное дело, особенно в аэропорту Сабиха Гёкчен.",
+    "difficulty": 2
+  },
+  {
+    "id": "airport_018",
+    "category": "airport",
+    "ru": "Где зона дьюти-фри?",
+    "en": "Where is the duty-free area?",
+    "phonetic": "/wɛr ɪz ðə ˈdjuːti friː ˈɛriə/",
+    "note": "В Istanbul Airport огромная зона Duty Free с турецкими сладостями и косметикой.",
+    "difficulty": 1
+  },
+  {
+    "id": "airport_019",
+    "category": "airport",
+    "ru": "Могу ли я получить компенсацию за отменённый рейс?",
+    "en": "Can I get compensation for the cancelled flight?",
+    "phonetic": "/kæn aɪ ɡɛt ˌkɒmpənˈseɪʃən fɔːr ðə ˈkænsəld flaɪt/",
+    "note": "При отмене рейса в Турции авиакомпания обязана предоставить питание и размещение.",
+    "difficulty": 3
+  },
+  {
+    "id": "airport_020",
+    "category": "airport",
+    "ru": "Где я могу зарядить телефон?",
+    "en": "Where can I charge my phone?",
+    "phonetic": "/wɛr kæn aɪ tʃɑːrdʒ maɪ foʊn/",
+    "note": "В Istanbul Airport множество зарядных станций — ищите стойки с надписью 'Charging Station'.",
+    "difficulty": 1
+  },
+  {
+    "id": "transport_016",
+    "category": "transport",
+    "ru": "Это долмуш? Куда он идёт?",
+    "en": "Is this a dolmuş? Where does it go?",
+    "phonetic": "/ɪz ðɪs ə dɒlˈmʊʃ wɛr dʌz ɪt ɡoʊ/",
+    "note": "Долмуш — маршрутное такси. Маршрут обычно написан на табличке за лобовым стеклом.",
+    "difficulty": 2
+  },
+  {
+    "id": "transport_017",
+    "category": "transport",
+    "ru": "Я хочу арендовать машину на три дня.",
+    "en": "I'd like to rent a car for three days.",
+    "phonetic": "/aɪd laɪk tə rɛnt ə kɑːr fɔːr θriː deɪz/",
+    "note": "Аренда авто в Стамбуле — смелое решение: трафик плотный, а парковка дорогая. Удобнее для поездок за город.",
+    "difficulty": 2
+  },
+  {
+    "id": "transport_018",
+    "category": "transport",
+    "ru": "Здесь всегда такие пробки?",
+    "en": "Is the traffic always this bad?",
+    "phonetic": "/ɪz ðə ˈtræfɪk ˈɔːlweɪz ðɪs bæd/",
+    "note": "Стамбул — один из самых загруженных городов мира. В час пик путь из аэропорта может занять 2-3 часа.",
+    "difficulty": 2
+  },
+  {
+    "id": "transport_019",
+    "category": "transport",
+    "ru": "Остановите здесь, пожалуйста.",
+    "en": "Please stop here.",
+    "phonetic": "/pliːz stɒp hɪr/",
+    "note": "Полезно в такси и долмуше. По-турецки: 'Burada inecek var!' (здесь выходят!).",
+    "difficulty": 1
+  },
+  {
+    "id": "transport_020",
+    "category": "transport",
+    "ru": "Включите счётчик, пожалуйста.",
+    "en": "Please turn on the meter.",
+    "phonetic": "/pliːz tɜːrn ɒn ðə ˈmiːtər/",
+    "note": "В Стамбуле некоторые таксисты пытаются ехать без счётчика — всегда настаивайте на его включении.",
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_016",
+    "category": "hotel",
+    "ru": "Слишком шумно. Можно переселиться в другой номер?",
+    "en": "It's too noisy. Can I move to a different room?",
+    "phonetic": "/ɪts tuː ˈnɔɪzi kæn aɪ muːv tə ə ˈdɪfərənt ruːm/",
+    "note": "В районе Султанахмет утренний азан звучит очень рано — если вы чутко спите, просите номер подальше от мечети.",
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_017",
+    "category": "hotel",
+    "ru": "Бассейн открыт для гостей?",
+    "en": "Is the pool open for guests?",
+    "phonetic": "/ɪz ðə puːl ˈoʊpən fɔːr ɡɛsts/",
+    "note": "Многие отели в Стамбуле имеют бассейн на крыше с видом на Босфор.",
+    "difficulty": 1
+  },
+  {
+    "id": "hotel_018",
+    "category": "hotel",
+    "ru": "Есть ли услуга стирки?",
+    "en": "Do you have a laundry service?",
+    "phonetic": "/duː juː hæv ə ˈlɔːndri ˈsɜːrvɪs/",
+    "note": "В большинстве отелей 4-5 звёзд стирка доступна, но стоит дорого. Рядом всегда есть местные прачечные (çamaşırhane).",
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_019",
+    "category": "hotel",
+    "ru": "Есть ли у вас парковка?",
+    "en": "Do you have parking available?",
+    "phonetic": "/duː juː hæv ˈpɑːrkɪŋ əˈveɪləbəl/",
+    "note": "Парковка в центре Стамбула — большая проблема. Уточняйте заранее, особенно в районах Бейоглу и Фатих.",
+    "difficulty": 1
+  },
+  {
+    "id": "hotel_020",
+    "category": "hotel",
+    "ru": "Кондиционер в номере не работает.",
+    "en": "The air conditioning in my room isn't working.",
+    "phonetic": "/ðə ɛr kənˈdɪʃənɪŋ ɪn maɪ ruːm ˈɪzənt ˈwɜːrkɪŋ/",
+    "note": "Летом в Стамбуле бывает +35°C и высокая влажность — без кондиционера тяжело.",
+    "difficulty": 2
+  },
+  {
+    "id": "restaurant_016",
+    "category": "restaurant",
+    "ru": "Какие десерты вы порекомендуете?",
+    "en": "What desserts would you recommend?",
+    "phonetic": "/wɒt dɪˈzɜːrts wʊd juː ˌrɛkəˈmɛnd/",
+    "note": "Обязательно попробуйте баклаву, кюнефе и казандиби — топ турецких десертов.",
+    "difficulty": 2
+  },
+  {
+    "id": "restaurant_017",
+    "category": "restaurant",
+    "ru": "У вас есть детское меню?",
+    "en": "Do you have a children's menu?",
+    "phonetic": "/duː juː hæv ə ˈtʃɪldrənz ˈmɛnjuː/",
+    "note": "Турки очень любят детей. Даже если детского меню нет, повар охотно приготовит что-то простое.",
+    "difficulty": 1
+  },
+  {
+    "id": "restaurant_018",
+    "category": "restaurant",
+    "ru": "У меня аллергия на орехи.",
+    "en": "I have a nut allergy.",
+    "phonetic": "/aɪ hæv ə nʌt ˈælərdʒi/",
+    "note": "В турецкой кухне много орехов (фисташки, грецкие, фундук). Обязательно предупреждайте!",
+    "difficulty": 2
+  },
+  {
+    "id": "restaurant_019",
+    "category": "restaurant",
+    "ru": "Это блюдо содержит глютен?",
+    "en": "Does this dish contain gluten?",
+    "phonetic": "/dʌz ðɪs dɪʃ kənˈteɪn ˈɡluːtən/",
+    "note": "Многие турецкие блюда (бёрек, пиде, лахмаджун) содержат тесто — уточняйте при непереносимости.",
+    "difficulty": 2
+  },
+  {
+    "id": "restaurant_020",
+    "category": "restaurant",
+    "ru": "Можно попробовать перед заказом?",
+    "en": "Can I try it before ordering?",
+    "phonetic": "/kæn aɪ traɪ ɪt bɪˈfɔːr ˈɔːrdərɪŋ/",
+    "note": "В лавках с турецкими сладостями и на рынке вам охотно дадут попробовать — это часть культуры.",
+    "difficulty": 2
+  },
+  {
+    "id": "streetfood_016",
+    "category": "streetfood",
+    "ru": "Одну варёную кукурузу, пожалуйста.",
+    "en": "One boiled corn, please.",
+    "phonetic": "/wʌn bɔɪld kɔːrn pliːz/",
+    "note": "Варёная и жареная кукуруза (mısır) — популярный перекус на набережной Эминёню.",
+    "difficulty": 1
+  },
+  {
+    "id": "streetfood_017",
+    "category": "streetfood",
+    "ru": "Можно пакетик жареных каштанов?",
+    "en": "Can I have a bag of roasted chestnuts?",
+    "phonetic": "/kæn aɪ hæv ə bæɡ əv ˈroʊstɪd ˈtʃɛsnʌts/",
+    "note": "Жареные каштаны (kestane) — зимний стамбульский стритфуд. Продавцы стоят на каждом углу в Бейоглу.",
+    "difficulty": 2
+  },
+  {
+    "id": "streetfood_018",
+    "category": "streetfood",
+    "ru": "Один айран, пожалуйста.",
+    "en": "One ayran, please.",
+    "phonetic": "/wʌn aɪˈrɑːn pliːz/",
+    "note": "Айран — солёный йогуртовый напиток, идеальная пара к кебабу. Есть в каждом кафе.",
+    "difficulty": 1
+  },
+  {
+    "id": "streetfood_019",
+    "category": "streetfood",
+    "ru": "Я хочу попробовать кюнефе.",
+    "en": "I'd like to try künefe.",
+    "phonetic": "/aɪd laɪk tə traɪ kyːˈnɛfɛ/",
+    "note": "Кюнефе — горячий десерт из тонкого теста кадаиф с сыром, залитый сиропом. Подают в Хатай-ресторанах.",
+    "difficulty": 2
+  },
+  {
+    "id": "streetfood_020",
+    "category": "streetfood",
+    "ru": "Это острое?",
+    "en": "Is this spicy?",
+    "phonetic": "/ɪz ðɪs ˈspaɪsi/",
+    "note": "Полезный вопрос для стритфуда — некоторые соусы в кокореч и мидиях бывают очень острыми.",
+    "difficulty": 1
+  },
+  {
+    "id": "shopping_016",
+    "category": "shopping",
+    "ru": "Могу ли я вернуть это?",
+    "en": "Can I return this?",
+    "phonetic": "/kæn aɪ rɪˈtɜːrn ðɪs/",
+    "note": "В торговых центрах Стамбула возврат обычно возможен в течение 14 дней с чеком.",
+    "difficulty": 1
+  },
+  {
+    "id": "shopping_017",
+    "category": "shopping",
+    "ru": "Можно подарочную упаковку?",
+    "en": "Can you gift-wrap it, please?",
+    "phonetic": "/kæn juː ɡɪft ræp ɪt pliːz/",
+    "note": "На Гранд-Базаре многие продавцы красиво упакуют покупку бесплатно.",
+    "difficulty": 2
+  },
+  {
+    "id": "shopping_018",
+    "category": "shopping",
+    "ru": "Вы доставляете в отель?",
+    "en": "Do you deliver to the hotel?",
+    "phonetic": "/duː juː dɪˈlɪvər tə ðə hoʊˈtɛl/",
+    "note": "Крупные покупки (ковры, керамика) магазины часто доставляют в отель или даже отправляют почтой домой.",
+    "difficulty": 2
+  },
+  {
+    "id": "shopping_019",
+    "category": "shopping",
+    "ru": "Можете отправить за границу?",
+    "en": "Can you ship it internationally?",
+    "phonetic": "/kæn juː ʃɪp ɪt ˌɪntərˈnæʃənəli/",
+    "note": "Магазины ковров на Гранд-Базаре имеют опыт международной доставки — уточняйте стоимость и сроки.",
+    "difficulty": 2
+  },
+  {
+    "id": "shopping_020",
+    "category": "shopping",
+    "ru": "Как оформить Tax Free?",
+    "en": "How do I get a tax refund?",
+    "phonetic": "/haʊ duː aɪ ɡɛt ə tæks ˈriːfʌnd/",
+    "note": "При покупке от 100 TL в одном магазине можно оформить Tax Free и вернуть НДС в аэропорту.",
+    "difficulty": 3
+  },
+  {
+    "id": "sightseeing_016",
+    "category": "sightseeing",
+    "ru": "Где купить билет на круиз по Босфору?",
+    "en": "Where can I buy a ticket for a Bosphorus cruise?",
+    "phonetic": "/wɛr kæn aɪ baɪ ə ˈtɪkɪt fɔːr ə ˈbɒsfərəs kruːz/",
+    "note": "Официальные круизы отправляются от причала Эминёню. Есть короткий (2 ч) и длинный (6 ч) маршруты.",
+    "difficulty": 2
+  },
+  {
+    "id": "sightseeing_017",
+    "category": "sightseeing",
+    "ru": "Как добраться до Принцевых островов?",
+    "en": "How do I get to the Princes' Islands?",
+    "phonetic": "/haʊ duː aɪ ɡɛt tə ðə ˈprɪnsɪz ˈaɪləndz/",
+    "note": "Паромы отходят от Кабаташ и Кадыкёй. Самый популярный остров — Бююкада (Büyükada).",
+    "difficulty": 2
+  },
+  {
+    "id": "sightseeing_018",
+    "category": "sightseeing",
+    "ru": "Где купить музейную карту?",
+    "en": "Where can I buy a museum pass?",
+    "phonetic": "/wɛr kæn aɪ baɪ ə mjuːˈziːəm pæs/",
+    "note": "Museum Pass Istanbul даёт вход в Топкапы, Айя-Софию (музейная часть), Археологический музей и другие.",
+    "difficulty": 2
+  },
+  {
+    "id": "sightseeing_019",
+    "category": "sightseeing",
+    "ru": "Можно здесь фотографировать?",
+    "en": "Is photography allowed here?",
+    "phonetic": "/ɪz fəˈtɒɡrəfi əˈlaʊd hɪr/",
+    "note": "В мечетях фото обычно разрешено, но без вспышки и не во время молитвы.",
+    "difficulty": 2
+  },
+  {
+    "id": "sightseeing_020",
+    "category": "sightseeing",
+    "ru": "В какие дни музей закрыт?",
+    "en": "Which days is the museum closed?",
+    "phonetic": "/wɪtʃ deɪz ɪz ðə mjuːˈziːəm kloʊzd/",
+    "note": "Многие стамбульские музеи закрыты по понедельникам — проверяйте расписание заранее.",
+    "difficulty": 2
+  },
+  {
+    "id": "money_time_016",
+    "category": "money_time",
+    "ru": "Можно ли сделать банковский перевод?",
+    "en": "Can I make a bank transfer?",
+    "phonetic": "/kæn aɪ meɪk ə bæŋk ˈtrænsfɜːr/",
+    "note": "Для крупных покупок (ковры, ювелирка) продавцы иногда предлагают перевод — уточняйте комиссию.",
+    "difficulty": 2
+  },
+  {
+    "id": "money_time_017",
+    "category": "money_time",
+    "ru": "Могу ли я оставить чаевые картой?",
+    "en": "Can I leave a tip by card?",
+    "phonetic": "/kæn aɪ liːv ə tɪp baɪ kɑːrd/",
+    "note": "В Турции чаевые обычно оставляют наличными (10-15%). Не все терминалы позволяют добавить чаевые к оплате.",
+    "difficulty": 2
+  },
+  {
+    "id": "money_time_018",
+    "category": "money_time",
+    "ru": "Сегодня государственный праздник?",
+    "en": "Is today a public holiday?",
+    "phonetic": "/ɪz təˈdeɪ ə ˈpʌblɪk ˈhɒlɪdeɪ/",
+    "note": "Во время Курбан-байрама и Рамадан-байрама многие магазины закрыты, а транспорт работает по особому графику.",
+    "difficulty": 2
+  },
+  {
+    "id": "money_time_019",
+    "category": "money_time",
+    "ru": "Какой сейчас курс доллара к лире?",
+    "en": "What is the current exchange rate for dollars to lira?",
+    "phonetic": "/wɒt ɪz ðə ˈkʌrənt ɪksˈtʃeɪndʒ reɪt fɔːr ˈdɒlərz tə ˈlɪrə/",
+    "note": "Курс турецкой лиры сильно колеблется. Обменники (döviz) в центре часто дают лучший курс, чем в аэропорту.",
+    "difficulty": 3
+  },
+  {
+    "id": "money_time_020",
+    "category": "money_time",
+    "ru": "Банкомат забрал мою карту.",
+    "en": "The ATM swallowed my card.",
+    "phonetic": "/ðə ˌeɪ tiː ˈɛm ˈswɒloʊd maɪ kɑːrd/",
+    "note": "Если банкомат забрал карту — обратитесь в отделение банка рядом. Держите запасную карту отдельно.",
+    "difficulty": 2
+  },
+  {
+    "id": "emergency_016",
+    "category": "emergency",
+    "ru": "Я потерял банковскую карту.",
+    "en": "I've lost my bank card.",
+    "phonetic": "/aɪv lɒst maɪ bæŋk kɑːrd/",
+    "note": "Сразу звоните в банк для блокировки. Полезно иметь номер горячей линии заранее.",
+    "difficulty": 2
+  },
+  {
+    "id": "emergency_017",
+    "category": "emergency",
+    "ru": "У меня есть туристическая страховка.",
+    "en": "I have travel insurance.",
+    "phonetic": "/aɪ hæv ˈtrævəl ɪnˈʃʊrəns/",
+    "note": "Покажите полис в больнице — частные клиники Стамбула работают с международными страховыми.",
+    "difficulty": 2
+  },
+  {
+    "id": "emergency_018",
+    "category": "emergency",
+    "ru": "Я обжёгся. Есть ли у вас мазь от ожогов?",
+    "en": "I got burned. Do you have burn ointment?",
+    "phonetic": "/aɪ ɡɒt bɜːrnd duː juː hæv bɜːrn ˈɔɪntmənt/",
+    "note": "Солнечные ожоги летом — частая проблема. В аптеках (eczane) есть средства без рецепта.",
+    "difficulty": 2
+  },
+  {
+    "id": "emergency_019",
+    "category": "emergency",
+    "ru": "Мне нужно связаться с консульством.",
+    "en": "I need to contact my consulate.",
+    "phonetic": "/aɪ niːd tə ˈkɒntækt maɪ ˈkɒnsjʊlɪt/",
+    "note": "Российское консульство в Стамбуле находится в районе Бейоглу на улице İstiklal Caddesi.",
+    "difficulty": 3
+  },
+  {
+    "id": "emergency_020",
+    "category": "emergency",
+    "ru": "Где ближайшая аптека?",
+    "en": "Where is the nearest pharmacy?",
+    "phonetic": "/wɛr ɪz ðə ˈnɪrɪst ˈfɑːrməsi/",
+    "note": "В Стамбуле есть дежурные аптеки (nöbetçi eczane), работающие ночью и в праздники.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_016",
+    "category": "turkish",
+    "ru": "Как у вас дела? (формальное)",
+    "en": "Nasılsınız?",
+    "phonetic": "/naˈsɯlsɯnɯz/",
+    "note": "Вежливая форма 'Как дела?' на турецком. Используйте с незнакомцами и людьми старше вас.",
+    "difficulty": 2
+  },
+  {
+    "id": "turkish_017",
+    "category": "turkish",
+    "ru": "Доброе утро!",
+    "en": "Günaydın!",
+    "phonetic": "/ɡyːˈnajdɯn/",
+    "note": "Приятное утреннее приветствие. Продавцы на рынках и в пекарнях оценят.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_018",
+    "category": "turkish",
+    "ru": "Есть ли скидка?",
+    "en": "İndirim var mı?",
+    "phonetic": "/indiˈɾim vɑɾ mɯ/",
+    "note": "Ключевая фраза для Гранд-Базара и Египетского рынка. Торг — часть культуры!",
+    "difficulty": 2
+  },
+  {
+    "id": "turkish_019",
+    "category": "turkish",
+    "ru": "Приятного аппетита!",
+    "en": "Afiyet olsun!",
+    "phonetic": "/afiˈjet olˈsun/",
+    "note": "Говорят перед едой или когда кто-то ест. Аналог 'Bon appétit'. Местные будут приятно удивлены.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_020",
+    "category": "turkish",
+    "ru": "Счёт, пожалуйста.",
+    "en": "Hesap, lütfen.",
+    "phonetic": "/heˈsɑp lytˈfen/",
+    "note": "Самая практичная фраза в ресторане. Официант сразу поймёт и принесёт счёт.",
+    "difficulty": 1
+  },
+  {
+    "id": "directions_001",
+    "category": "directions",
+    "ru": "Поверните налево на углу.",
+    "en": "Turn left at the corner.",
+    "phonetic": "/tɜːrn lɛft æt ðə ˈkɔːrnər/",
+    "note": "Базовое указание направления. Стамбульские улочки часто извилистые — уточняйте ориентиры.",
+    "difficulty": 1
+  },
+  {
+    "id": "directions_002",
+    "category": "directions",
+    "ru": "Как далеко это отсюда?",
+    "en": "How far is it from here?",
+    "phonetic": "/haʊ fɑːr ɪz ɪt frɒm hɪr/",
+    "note": "В Стамбуле расстояния обманчивы из-за холмов — то, что кажется рядом на карте, может быть крутым подъёмом.",
+    "difficulty": 1
+  },
+  {
+    "id": "directions_003",
+    "category": "directions",
+    "ru": "Туда можно дойти пешком?",
+    "en": "Is it within walking distance?",
+    "phonetic": "/ɪz ɪt wɪˈðɪn ˈwɔːkɪŋ ˈdɪstəns/",
+    "note": "Многие достопримечательности Султанахмета находятся в пешей доступности друг от друга.",
+    "difficulty": 2
+  },
+  {
+    "id": "directions_004",
+    "category": "directions",
+    "ru": "Можете показать на карте?",
+    "en": "Can you show me on the map?",
+    "phonetic": "/kæn juː ʃoʊ miː ɒn ðə mæp/",
+    "note": "Покажите карту на телефоне — визуально объясниться проще, особенно если собеседник плохо говорит по-английски.",
+    "difficulty": 1
+  },
+  {
+    "id": "directions_005",
+    "category": "directions",
+    "ru": "Я ищу улицу Истикляль.",
+    "en": "I'm looking for Istiklal Street.",
+    "phonetic": "/aɪm ˈlʊkɪŋ fɔːr ˌɪstɪˈklɑːl striːt/",
+    "note": "İstiklal Caddesi — главная пешеходная улица Стамбула длиной 1,4 км, от Таксима до Тюнеля.",
+    "difficulty": 2
+  },
+  {
+    "id": "directions_006",
+    "category": "directions",
+    "ru": "Как пройти к Галатскому мосту?",
+    "en": "Which way to the Galata Bridge?",
+    "phonetic": "/wɪtʃ weɪ tə ðə ɡəˈlɑːtə brɪdʒ/",
+    "note": "Галатский мост соединяет Эминёню и Каракёй. На нижнем ярусе — рыбные рестораны.",
+    "difficulty": 2
+  },
+  {
+    "id": "directions_007",
+    "category": "directions",
+    "ru": "Идите прямо.",
+    "en": "Go straight ahead.",
+    "phonetic": "/ɡoʊ streɪt əˈhɛd/",
+    "note": "Простое указание. По-турецки: 'Düz gidin' (дюз гидин).",
+    "difficulty": 1
+  },
+  {
+    "id": "directions_008",
+    "category": "directions",
+    "ru": "Сверните во второй поворот направо.",
+    "en": "Take the second right.",
+    "phonetic": "/teɪk ðə ˈsɛkənd raɪt/",
+    "note": "В старых районах Стамбула переулки не всегда подписаны — считайте повороты внимательно.",
+    "difficulty": 2
+  },
+  {
+    "id": "directions_009",
+    "category": "directions",
+    "ru": "Есть ли короткий путь?",
+    "en": "Is there a shortcut?",
+    "phonetic": "/ɪz ðɛr ə ˈʃɔːrtkʌt/",
+    "note": "Местные часто знают проходные дворы и лестницы, которых нет на карте. Не стесняйтесь спрашивать!",
+    "difficulty": 2
+  },
+  {
+    "id": "directions_010",
+    "category": "directions",
+    "ru": "Я заблудился.",
+    "en": "I'm lost.",
+    "phonetic": "/aɪm lɒst/",
+    "note": "Не паникуйте — стамбульцы очень отзывчивы и часто сами предложат помощь заблудившемуся туристу.",
+    "difficulty": 1
+  },
+  {
+    "id": "directions_011",
+    "category": "directions",
+    "ru": "Через дорогу.",
+    "en": "Across the street.",
+    "phonetic": "/əˈkrɒs ðə striːt/",
+    "note": "Переходите дорогу осторожно — в Стамбуле водители не всегда останавливаются на пешеходных переходах.",
+    "difficulty": 1
+  },
+  {
+    "id": "directions_012",
+    "category": "directions",
+    "ru": "Рядом с мечетью.",
+    "en": "Next to the mosque.",
+    "phonetic": "/nɛkst tə ðə mɒsk/",
+    "note": "Мечети — отличные ориентиры в Стамбуле. Их минареты видны издалека.",
+    "difficulty": 1
+  },
+  {
+    "id": "directions_013",
+    "category": "directions",
+    "ru": "За базаром.",
+    "en": "Behind the bazaar.",
+    "phonetic": "/bɪˈhaɪnd ðə bəˈzɑːr/",
+    "note": "Гранд-Базар и Египетский рынок — удобные точки ориентира в районе Фатих.",
+    "difficulty": 1
+  },
+  {
+    "id": "directions_014",
+    "category": "directions",
+    "ru": "На набережной.",
+    "en": "On the waterfront.",
+    "phonetic": "/ɒn ðə ˈwɔːtərfrʌnt/",
+    "note": "Набережные Босфора — одни из самых живописных мест Стамбула. Прогуляйтесь от Ортакёй до Бебека.",
+    "difficulty": 2
+  },
+  {
+    "id": "directions_015",
+    "category": "directions",
+    "ru": "Как мне попасть на азиатскую сторону?",
+    "en": "How do I get to the Asian side?",
+    "phonetic": "/haʊ duː aɪ ɡɛt tə ðə ˈeɪʒən saɪd/",
+    "note": "На азиатский берег можно попасть на пароме (от Эминёню/Кабаташ), на Мармарай (подводное метро) или по мосту.",
+    "difficulty": 2
+  },
+  {
+    "id": "hammam_001",
+    "category": "hammam",
+    "ru": "Я хочу забронировать сеанс в хаммаме.",
+    "en": "I'd like to book a hammam session.",
+    "phonetic": "/aɪd laɪk tə bʊk ə hæˈmɑːm ˈsɛʃən/",
+    "note": "Лучшие исторические хаммамы Стамбула: Чемберлиташ (1584), Кылыч Али Паша, Аязма.",
+    "difficulty": 2
+  },
+  {
+    "id": "hammam_002",
+    "category": "hammam",
+    "ru": "Что входит в пакет?",
+    "en": "What is included in the package?",
+    "phonetic": "/wɒt ɪz ɪnˈkluːdɪd ɪn ðə ˈpækɪdʒ/",
+    "note": "Базовый пакет обычно включает пенный массаж (köpük) и пилинг (kese). Масляный массаж — за доплату.",
+    "difficulty": 2
+  },
+  {
+    "id": "hammam_003",
+    "category": "hammam",
+    "ru": "Есть ли сеанс только для женщин?",
+    "en": "Is there a women-only session?",
+    "phonetic": "/ɪz ðɛr ə ˈwɪmɪn ˈoʊnli ˈsɛʃən/",
+    "note": "В традиционных хаммамах мужчины и женщины ходят раздельно — либо в разные залы, либо в разные часы.",
+    "difficulty": 2
+  },
+  {
+    "id": "hammam_004",
+    "category": "hammam",
+    "ru": "Где оставить вещи?",
+    "en": "Where do I leave my belongings?",
+    "phonetic": "/wɛr duː aɪ liːv maɪ bɪˈlɒŋɪŋz/",
+    "note": "В хаммаме вам выдадут запирающийся шкафчик. Ценные вещи лучше оставить в сейфе отеля.",
+    "difficulty": 2
+  },
+  {
+    "id": "hammam_005",
+    "category": "hammam",
+    "ru": "Вода слишком горячая.",
+    "en": "The water is too hot.",
+    "phonetic": "/ðə ˈwɔːtər ɪz tuː hɒt/",
+    "note": "Не стесняйтесь говорить — банщик (tellak) отрегулирует температуру.",
+    "difficulty": 1
+  },
+  {
+    "id": "hammam_006",
+    "category": "hammam",
+    "ru": "Помягче, пожалуйста.",
+    "en": "A bit softer, please.",
+    "phonetic": "/ə bɪt ˈsɒftər pliːz/",
+    "note": "Турецкий пилинг (kese) может быть интенсивным — если больно, скажите 'Yavaş!' (яваш — тише).",
+    "difficulty": 1
+  },
+  {
+    "id": "hammam_007",
+    "category": "hammam",
+    "ru": "Сколько длится сеанс?",
+    "en": "How long is the session?",
+    "phonetic": "/haʊ lɒŋ ɪz ðə ˈsɛʃən/",
+    "note": "Стандартный сеанс в хаммаме — 45-60 минут. С дополнительным массажом — до 90 минут.",
+    "difficulty": 1
+  },
+  {
+    "id": "hammam_008",
+    "category": "hammam",
+    "ru": "Нужно ли мне приносить полотенце?",
+    "en": "Do I need to bring a towel?",
+    "phonetic": "/duː aɪ niːd tə brɪŋ ə ˈtaʊəl/",
+    "note": "Хаммам предоставляет пештемаль (тонкое полотенце), тапочки и мыло. Приносить ничего не нужно.",
+    "difficulty": 1
+  },
+  {
+    "id": "hammam_009",
+    "category": "hammam",
+    "ru": "Можно ещё и массаж?",
+    "en": "Can I have a massage as well?",
+    "phonetic": "/kæn aɪ hæv ə məˈsɑːʒ æz wɛl/",
+    "note": "Масляный массаж после пилинга и пенного массажа — отличное завершение процедуры.",
+    "difficulty": 1
+  },
+  {
+    "id": "hammam_010",
+    "category": "hammam",
+    "ru": "Это потрясающе!",
+    "en": "This feels amazing!",
+    "phonetic": "/ðɪs fiːlz əˈmeɪzɪŋ/",
+    "note": "Банщики оценят положительный отзыв. По-турецки: 'Çok güzel!' (чок гюзель — очень хорошо!).",
+    "difficulty": 1
+  },
+  {
+    "id": "hammam_011",
+    "category": "hammam",
+    "ru": "Где комната отдыха?",
+    "en": "Where is the relaxation room?",
+    "phonetic": "/wɛr ɪz ðə ˌriːlækˈseɪʃən ruːm/",
+    "note": "После процедуры вас проводят в зал отдыха (soğukluk) с чаем и фруктами. Не спешите уходить!",
+    "difficulty": 1
+  },
+  {
+    "id": "hammam_012",
+    "category": "hammam",
+    "ru": "Принято ли оставлять чаевые?",
+    "en": "Is a tip expected?",
+    "phonetic": "/ɪz ə tɪp ɪkˈspɛktɪd/",
+    "note": "Да, чаевые банщику — 15-20% от стоимости. Передают лично в руки после процедуры.",
+    "difficulty": 2
+  },
+  {
+    "id": "hammam_013",
+    "category": "hammam",
+    "ru": "У меня чувствительная кожа.",
+    "en": "I have sensitive skin.",
+    "phonetic": "/aɪ hæv ˈsɛnsɪtɪv skɪn/",
+    "note": "Предупредите заранее — банщик будет использовать более мягкую рукавицу для пилинга.",
+    "difficulty": 2
+  },
+  {
+    "id": "hammam_014",
+    "category": "hammam",
+    "ru": "Во сколько последний сеанс?",
+    "en": "What time is the last session?",
+    "phonetic": "/wɒt taɪm ɪz ðə lɑːst ˈsɛʃən/",
+    "note": "Исторические хаммамы обычно работают до 22:00-23:00. Последний приём — за 1-1,5 часа до закрытия.",
+    "difficulty": 1
+  },
+  {
+    "id": "hammam_015",
+    "category": "hammam",
+    "ru": "Спасибо, было замечательно!",
+    "en": "Thank you, that was wonderful!",
+    "phonetic": "/θæŋk juː ðæt wɒz ˈwʌndərfəl/",
+    "note": "По-турецки: 'Teşekkürler, harikaydı!' Ваша благодарность — лучший комплимент банщику.",
+    "difficulty": 1
+  },
+  {
+    "id": "complaints_001",
+    "category": "complaints",
+    "ru": "Это не то, что я заказывал.",
+    "en": "This is not what I ordered.",
+    "phonetic": "/ðɪs ɪz nɒt wɒt aɪ ˈɔːrdərd/",
+    "note": "В шумных стамбульских ресторанах путаница с заказами бывает — спокойно объясните ситуацию.",
+    "difficulty": 1
+  },
+  {
+    "id": "complaints_002",
+    "category": "complaints",
+    "ru": "Номер не был убран.",
+    "en": "The room hasn't been cleaned.",
+    "phonetic": "/ðə ruːm ˈhæzənt biːn kliːnd/",
+    "note": "Обратитесь на ресепшен — в турецких отелях обычно быстро реагируют на такие просьбы.",
+    "difficulty": 2
+  },
+  {
+    "id": "complaints_003",
+    "category": "complaints",
+    "ru": "Кондиционер слишком холодный.",
+    "en": "The air conditioning is too cold.",
+    "phonetic": "/ðə ɛr kənˈdɪʃənɪŋ ɪz tuː koʊld/",
+    "note": "В автобусах и ресторанах кондиционеры часто работают на максимум — попросите убавить или пересядьте.",
+    "difficulty": 1
+  },
+  {
+    "id": "complaints_004",
+    "category": "complaints",
+    "ru": "Я жду уже 30 минут.",
+    "en": "I've been waiting for 30 minutes.",
+    "phonetic": "/aɪv biːn ˈweɪtɪŋ fɔːr ˈθɜːrti ˈmɪnɪts/",
+    "note": "Темп обслуживания в Стамбуле может быть медленнее, чем вы привыкли. Фраза поможет вежливо напомнить о себе.",
+    "difficulty": 2
+  },
+  {
+    "id": "complaints_005",
+    "category": "complaints",
+    "ru": "Я хотел бы поговорить с менеджером.",
+    "en": "I'd like to speak to the manager.",
+    "phonetic": "/aɪd laɪk tə spiːk tə ðə ˈmænɪdʒər/",
+    "note": "Используйте только если проблема серьёзная. В Турции конфликты предпочитают решать мирно.",
+    "difficulty": 2
+  },
+  {
+    "id": "complaints_006",
+    "category": "complaints",
+    "ru": "Этот товар повреждён.",
+    "en": "This product is damaged.",
+    "phonetic": "/ðɪs ˈprɒdʌkt ɪz ˈdæmɪdʒd/",
+    "note": "На рынках проверяйте товар до покупки — после оплаты вернуть сложнее.",
+    "difficulty": 2
+  },
+  {
+    "id": "complaints_007",
+    "category": "complaints",
+    "ru": "Я хочу вернуть деньги.",
+    "en": "I want a refund.",
+    "phonetic": "/aɪ wɒnt ə ˈriːfʌnd/",
+    "note": "В торговых центрах возврат по закону; на базарах — только по доброй воле продавца.",
+    "difficulty": 2
+  },
+  {
+    "id": "complaints_008",
+    "category": "complaints",
+    "ru": "Wi-Fi постоянно отключается.",
+    "en": "The wifi keeps disconnecting.",
+    "phonetic": "/ðə ˈwaɪfaɪ kiːps ˌdɪskəˈnɛktɪŋ/",
+    "note": "В старых зданиях Стамбула стены толстые — Wi-Fi ловит плохо. Попросите усилитель или пароль от другой сети.",
+    "difficulty": 2
+  },
+  {
+    "id": "complaints_009",
+    "category": "complaints",
+    "ru": "Здесь слишком шумно.",
+    "en": "There's too much noise.",
+    "phonetic": "/ðɛrz tuː mʌtʃ nɔɪz/",
+    "note": "Стамбул — громкий город. Если номер выходит на улицу, попросите переселение на тихую сторону.",
+    "difficulty": 1
+  },
+  {
+    "id": "complaints_010",
+    "category": "complaints",
+    "ru": "Это не соответствует описанию.",
+    "en": "This doesn't match the description.",
+    "phonetic": "/ðɪs ˈdʌzənt mætʃ ðə dɪˈskrɪpʃən/",
+    "note": "Актуально при бронировании отелей или экскурсий. Сделайте скриншот объявления заранее.",
+    "difficulty": 2
+  },
+  {
+    "id": "complaints_011",
+    "category": "complaints",
+    "ru": "Вы можете это починить?",
+    "en": "Can you fix this?",
+    "phonetic": "/kæn juː fɪks ðɪs/",
+    "note": "В отелях быстро решают мелкие проблемы — сломанный кран, перегоревшая лампочка.",
+    "difficulty": 1
+  },
+  {
+    "id": "complaints_012",
+    "category": "complaints",
+    "ru": "Меня это не устраивает.",
+    "en": "I'm not satisfied.",
+    "phonetic": "/aɪm nɒt ˈsætɪsfaɪd/",
+    "note": "Говорите спокойно, но твёрдо. Турки ценят вежливость даже в спорных ситуациях.",
+    "difficulty": 2
+  },
+  {
+    "id": "complaints_013",
+    "category": "complaints",
+    "ru": "Это неприемлемо.",
+    "en": "This is unacceptable.",
+    "phonetic": "/ðɪs ɪz ˌʌnəkˈsɛptəbəl/",
+    "note": "Сильная формулировка — используйте при серьёзных проблемах (обман с ценой, нарушение договора).",
+    "difficulty": 2
+  },
+  {
+    "id": "complaints_014",
+    "category": "complaints",
+    "ru": "Когда это будет готово?",
+    "en": "When will it be ready?",
+    "phonetic": "/wɛn wɪl ɪt biː ˈrɛdi/",
+    "note": "Полезно при ожидании ремонта, стирки или пошива одежды (в Стамбуле много ателье).",
+    "difficulty": 1
+  },
+  {
+    "id": "complaints_015",
+    "category": "complaints",
+    "ru": "Я хочу оставить жалобу.",
+    "en": "I'd like to make a complaint.",
+    "phonetic": "/aɪd laɪk tə meɪk ə kəmˈpleɪnt/",
+    "note": "В крупных отелях и ресторанах есть книга жалоб (şikâyet defteri) — это ваше законное право.",
+    "difficulty": 2
+  },
+  {
+    "id": "socializing_001",
+    "category": "socializing",
+    "ru": "Чем вы занимаетесь?",
+    "en": "What do you do for a living?",
+    "phonetic": "/wɒt duː juː duː fɔːr ə ˈlɪvɪŋ/",
+    "note": "Стандартный вопрос при знакомстве. Турки любят рассказывать о своей работе.",
+    "difficulty": 2
+  },
+  {
+    "id": "socializing_002",
+    "category": "socializing",
+    "ru": "Как давно вы в Стамбуле?",
+    "en": "How long have you been in Istanbul?",
+    "phonetic": "/haʊ lɒŋ hæv juː biːn ɪn ˌɪstænˈbʊl/",
+    "note": "Хороший вопрос для начала разговора с другими путешественниками в хостеле или кафе.",
+    "difficulty": 2
+  },
+  {
+    "id": "socializing_003",
+    "category": "socializing",
+    "ru": "Вы пробовали местную еду?",
+    "en": "Have you tried the local food?",
+    "phonetic": "/hæv juː traɪd ðə ˈloʊkəl fuːd/",
+    "note": "Еда — универсальная тема для разговора в Стамбуле. Каждый хочет поделиться своими находками.",
+    "difficulty": 1
+  },
+  {
+    "id": "socializing_004",
+    "category": "socializing",
+    "ru": "Какое ваше любимое место здесь?",
+    "en": "What's your favourite place here?",
+    "phonetic": "/wɒts jɔːr ˈfeɪvərɪt pleɪs hɪr/",
+    "note": "Местные жители часто рекомендуют места, которых нет в путеводителях — настоящие жемчужины города.",
+    "difficulty": 2
+  },
+  {
+    "id": "socializing_005",
+    "category": "socializing",
+    "ru": "Хотите присоединиться к нам?",
+    "en": "Would you like to join us?",
+    "phonetic": "/wʊd juː laɪk tə dʒɔɪn ʌs/",
+    "note": "Турки очень гостеприимны и часто сами приглашают. Ответное приглашение будет оценено.",
+    "difficulty": 2
+  },
+  {
+    "id": "socializing_006",
+    "category": "socializing",
+    "ru": "Давайте оставаться на связи.",
+    "en": "Let's keep in touch.",
+    "phonetic": "/lɛts kiːp ɪn tʌtʃ/",
+    "note": "Обменяйтесь контактами — в Турции популярны WhatsApp и Instagram.",
+    "difficulty": 1
+  },
+  {
+    "id": "socializing_007",
+    "category": "socializing",
+    "ru": "Могу я добавить вас в Инстаграм?",
+    "en": "Can I add you on Instagram?",
+    "phonetic": "/kæn aɪ æd juː ɒn ˈɪnstəɡræm/",
+    "note": "Instagram очень популярен в Турции — это самый обычный способ обменяться контактами.",
+    "difficulty": 1
+  },
+  {
+    "id": "socializing_008",
+    "category": "socializing",
+    "ru": "Я первый раз в Турции.",
+    "en": "This is my first time in Turkey.",
+    "phonetic": "/ðɪs ɪz maɪ fɜːrst taɪm ɪn ˈtɜːrki/",
+    "note": "Скажите это — и вас засыпят советами и рекомендациями. Турки обожают знакомить гостей со своей страной.",
+    "difficulty": 1
+  },
+  {
+    "id": "socializing_009",
+    "category": "socializing",
+    "ru": "Мне очень нравится культура здесь.",
+    "en": "I love the culture here.",
+    "phonetic": "/aɪ lʌv ðə ˈkʌltʃər hɪr/",
+    "note": "Комплимент культуре — лучший способ расположить к себе турка. Они очень гордятся своим наследием.",
+    "difficulty": 1
+  },
+  {
+    "id": "socializing_010",
+    "category": "socializing",
+    "ru": "Можете что-нибудь порекомендовать?",
+    "en": "Do you have any recommendations?",
+    "phonetic": "/duː juː hæv ˈɛni ˌrɛkəmɛnˈdeɪʃənz/",
+    "note": "Спрашивайте у местных — получите лучшие советы по ресторанам, кафе и скрытым местам.",
+    "difficulty": 2
+  },
+  {
+    "id": "socializing_011",
+    "category": "socializing",
+    "ru": "Куда вы путешествуете дальше?",
+    "en": "Where are you travelling next?",
+    "phonetic": "/wɛr ɑːr juː ˈtrævəlɪŋ nɛkst/",
+    "note": "Из Стамбула удобно лететь в Каппадокию, Анталью или на греческие острова.",
+    "difficulty": 2
+  },
+  {
+    "id": "socializing_012",
+    "category": "socializing",
+    "ru": "Было приятно с вами познакомиться!",
+    "en": "It was great meeting you!",
+    "phonetic": "/ɪt wɒz ɡreɪt ˈmiːtɪŋ juː/",
+    "note": "Тёплое прощание. По-турецки: 'Tanıştığımıza memnun oldum!' (рад знакомству).",
+    "difficulty": 1
+  },
+  {
+    "id": "socializing_013",
+    "category": "socializing",
+    "ru": "Давайте как-нибудь выпьем кофе.",
+    "en": "Let's grab a coffee sometime.",
+    "phonetic": "/lɛts ɡræb ə ˈkɒfi ˈsʌmtaɪm/",
+    "note": "Турецкий кофе — отличный повод для встречи. Попробуйте в кафе на улочках Кадыкёя.",
+    "difficulty": 2
+  },
+  {
+    "id": "socializing_014",
+    "category": "socializing",
+    "ru": "Что привело вас в Стамбул?",
+    "en": "What brings you to Istanbul?",
+    "phonetic": "/wɒt brɪŋz juː tə ˌɪstænˈbʊl/",
+    "note": "Открытый вопрос, который работает и с туристами, и с экспатами, и с местными.",
+    "difficulty": 2
+  },
+  {
+    "id": "socializing_015",
+    "category": "socializing",
+    "ru": "Город прекрасен ночью.",
+    "en": "The city is beautiful at night.",
+    "phonetic": "/ðə ˈsɪti ɪz ˈbjuːtɪfəl æt naɪt/",
+    "note": "Вечерняя подсветка мечетей и мостов делает Стамбул волшебным. Лучший вид — с холма Пьер Лоти.",
+    "difficulty": 1
+  },
+  {
+    "id": "weather_001",
+    "category": "weather",
+    "ru": "Какая сегодня погода?",
+    "en": "What's the weather like today?",
+    "phonetic": "/wɒts ðə ˈwɛðər laɪk təˈdeɪ/",
+    "note": "Погода в Стамбуле непредсказуема — утром может быть солнце, а днём дождь.",
+    "difficulty": 1
+  },
+  {
+    "id": "weather_002",
+    "category": "weather",
+    "ru": "Будет ли дождь?",
+    "en": "Is it going to rain?",
+    "phonetic": "/ɪz ɪt ˈɡoʊɪŋ tə reɪn/",
+    "note": "Осенью и зимой дожди в Стамбуле часты. Держите зонт наготове с октября по март.",
+    "difficulty": 1
+  },
+  {
+    "id": "weather_003",
+    "category": "weather",
+    "ru": "Сегодня очень жарко.",
+    "en": "It's very hot today.",
+    "phonetic": "/ɪts ˈvɛri hɒt təˈdeɪ/",
+    "note": "Лето в Стамбуле: +30-35°C при высокой влажности. Пейте больше воды и избегайте прогулок в полдень.",
+    "difficulty": 1
+  },
+  {
+    "id": "weather_004",
+    "category": "weather",
+    "ru": "Мне нужна куртка полегче.",
+    "en": "I need a lighter jacket.",
+    "phonetic": "/aɪ niːd ə ˈlaɪtər ˈdʒækɪt/",
+    "note": "Весной и осенью лёгкая ветровка — идеальный выбор для Стамбула.",
+    "difficulty": 1
+  },
+  {
+    "id": "weather_005",
+    "category": "weather",
+    "ru": "Где можно купить зонт?",
+    "en": "Where can I buy an umbrella?",
+    "phonetic": "/wɛr kæn aɪ baɪ ən ʌmˈbrɛlə/",
+    "note": "Во время дождя продавцы зонтов появляются на каждом углу — цены от 30 до 100 лир.",
+    "difficulty": 1
+  },
+  {
+    "id": "weather_006",
+    "category": "weather",
+    "ru": "Здесь всегда такая влажность?",
+    "en": "Is it usually this humid?",
+    "phonetic": "/ɪz ɪt ˈjuːʒuəli ðɪs ˈhjuːmɪd/",
+    "note": "Стамбул стоит на двух морях — влажность высокая, особенно летом. Лёгкая одежда из хлопка — лучший выбор.",
+    "difficulty": 2
+  },
+  {
+    "id": "weather_007",
+    "category": "weather",
+    "ru": "Солнце очень сильное.",
+    "en": "The sun is really strong.",
+    "phonetic": "/ðə sʌn ɪz ˈrɪəli strɒŋ/",
+    "note": "UV-индекс в Стамбуле летом очень высокий — надевайте шляпу и наносите SPF 50+.",
+    "difficulty": 1
+  },
+  {
+    "id": "weather_008",
+    "category": "weather",
+    "ru": "Стоит ли взять куртку на вечер?",
+    "en": "Should I bring a jacket for the evening?",
+    "phonetic": "/ʃʊd aɪ brɪŋ ə ˈdʒækɪt fɔːr ðə ˈiːvnɪŋ/",
+    "note": "Вечером у Босфора прохладно даже летом — лёгкая кофта не помешает.",
+    "difficulty": 2
+  },
+  {
+    "id": "weather_009",
+    "category": "weather",
+    "ru": "У Босфора довольно ветрено.",
+    "en": "It's quite windy near the Bosphorus.",
+    "phonetic": "/ɪts kwaɪt ˈwɪndi nɪr ðə ˈbɒsfərəs/",
+    "note": "Ветер с пролива бывает сильным — учитывайте это при поездке на пароме или прогулке по набережной.",
+    "difficulty": 2
+  },
+  {
+    "id": "weather_010",
+    "category": "weather",
+    "ru": "Какой прогноз на завтра?",
+    "en": "What's the forecast for tomorrow?",
+    "phonetic": "/wɒts ðə ˈfɔːrkæst fɔːr təˈmɒroʊ/",
+    "note": "Спросите у ресепшена в отеле или проверьте приложение — планируйте уличные активности заранее.",
+    "difficulty": 2
+  },
+  {
+    "id": "weather_011",
+    "category": "weather",
+    "ru": "Есть ли поблизости тень?",
+    "en": "Is there shade nearby?",
+    "phonetic": "/ɪz ðɛr ʃeɪd ˈnɪrbaɪ/",
+    "note": "В жару ищите тенистые дворики мечетей и парки — например, парк Гюльхане у дворца Топкапы.",
+    "difficulty": 1
+  },
+  {
+    "id": "weather_012",
+    "category": "weather",
+    "ru": "Мне нужен солнцезащитный крем.",
+    "en": "I need sunscreen.",
+    "phonetic": "/aɪ niːd ˈsʌnskriːn/",
+    "note": "Солнцезащитный крем в турецких аптеках (eczane) — 'güneş kremi'. Бренды те же, что и в Европе.",
+    "difficulty": 1
+  },
+  {
+    "id": "weather_013",
+    "category": "weather",
+    "ru": "Становится холодно.",
+    "en": "It's getting cold.",
+    "phonetic": "/ɪts ˈɡɛtɪŋ koʊld/",
+    "note": "С ноября по март в Стамбуле прохладно (+5-10°C). Берите тёплую одежду и непромокаемую обувь.",
+    "difficulty": 1
+  },
+  {
+    "id": "weather_014",
+    "category": "weather",
+    "ru": "Идеальная погода для осмотра достопримечательностей.",
+    "en": "Perfect weather for sightseeing.",
+    "phonetic": "/ˈpɜːrfɪkt ˈwɛðər fɔːr ˈsaɪtˌsiːɪŋ/",
+    "note": "Лучшие месяцы для прогулок по Стамбулу — апрель-май и сентябрь-октябрь: тепло, но не жарко.",
+    "difficulty": 2
+  },
+  {
+    "id": "weather_015",
+    "category": "weather",
+    "ru": "В Стамбуле бывает снег?",
+    "en": "Does it snow in Istanbul?",
+    "phonetic": "/dʌz ɪt snoʊ ɪn ˌɪstænˈbʊl/",
+    "note": "Да, 1-2 раза в зиму бывает снегопад. Город в снегу выглядит волшебно, но транспорт может встать.",
     "difficulty": 2
   }
 ]
