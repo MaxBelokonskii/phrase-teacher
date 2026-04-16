@@ -1,16 +1,18 @@
 <script setup lang="ts">
-import { ref, watch, nextTick, useTemplateRef } from 'vue'
+import { ref, computed, watch, nextTick, useTemplateRef } from 'vue'
 import { Check, X, AlertCircle, Volume2 } from 'lucide-vue-next'
 import type { Phrase, AnswerVerdict } from '@/types'
+import type { QuizDirection } from '@/composables/useQuizSession'
 import { useFuzzyMatch } from '@/composables/useFuzzyMatch'
 import { useSpeech } from '@/composables/useSpeech'
 import AppButton from '@/components/ui/AppButton.vue'
 
 interface Props {
   phrase: Phrase
+  direction?: QuizDirection
 }
 
-const props = defineProps<Props>()
+const props = withDefaults(defineProps<Props>(), { direction: 'ru-en' })
 
 const emit = defineEmits<{
   answer: [correct: boolean, verdict: AnswerVerdict, input: string]
@@ -22,6 +24,16 @@ const locked = ref(false)
 const { judgeAnswer } = useFuzzyMatch()
 const { pronounce, isSupported } = useSpeech()
 const inputEl = useTemplateRef<HTMLInputElement>('inputEl')
+
+const isReverse = computed(() => props.direction === 'en-ru')
+const questionText = computed(() => (isReverse.value ? props.phrase.en : props.phrase.ru))
+const questionLabel = computed(() =>
+  isReverse.value ? 'Напишите перевод на русский' : 'Напишите перевод на английский',
+)
+const placeholder = computed(() =>
+  isReverse.value ? 'Введите перевод на русский...' : 'Type the English translation...',
+)
+const expectedAnswer = computed(() => (isReverse.value ? props.phrase.ru : props.phrase.en))
 
 watch(
   () => props.phrase.id,
@@ -38,7 +50,7 @@ watch(
 function check() {
   if (locked.value) return
   if (!input.value.trim()) return
-  verdict.value = judgeAnswer(input.value, props.phrase.en, props.phrase.alternatives ?? [])
+  verdict.value = judgeAnswer(input.value, expectedAnswer.value, isReverse.value ? [] : (props.phrase.alternatives ?? []))
   locked.value = true
   if (isSupported.value && verdict.value !== 'wrong') {
     pronounce(props.phrase.en)
@@ -60,9 +72,9 @@ function onSubmit(event: Event) {
 <template>
   <div class="space-y-5">
     <div class="card p-6 text-center">
-      <p class="text-xs uppercase tracking-wider text-muted font-semibold mb-3">Напишите перевод на английский</p>
+      <p class="text-xs uppercase tracking-wider text-muted font-semibold mb-3">{{ questionLabel }}</p>
       <p class="text-2xl md:text-3xl font-display font-semibold text-slate-900 dark:text-slate-100">
-        {{ phrase.ru }}
+        {{ questionText }}
       </p>
     </div>
 
@@ -75,7 +87,7 @@ function onSubmit(event: Event) {
         autocapitalize="off"
         spellcheck="false"
         :disabled="locked"
-        placeholder="Type the English translation..."
+        :placeholder="placeholder"
         class="w-full h-14 px-4 rounded-2xl bg-surface-card dark:bg-surface-card-dark border-2 text-lg text-slate-900 dark:text-slate-100 placeholder:text-slate-400 dark:placeholder:text-slate-600 transition-colors focus:outline-none disabled:opacity-90"
         :class="
           !locked
@@ -102,7 +114,7 @@ function onSubmit(event: Event) {
           </div>
           <p class="text-sm text-muted">
             Правильное написание:
-            <span class="font-mono font-semibold text-slate-900 dark:text-slate-100">{{ phrase.en }}</span>
+            <span class="font-mono font-semibold text-slate-900 dark:text-slate-100">{{ expectedAnswer }}</span>
           </p>
         </div>
         <div v-else class="space-y-1">
@@ -112,7 +124,7 @@ function onSubmit(event: Event) {
           </div>
           <p class="text-sm text-muted">
             Правильный ответ:
-            <span class="font-mono font-semibold text-slate-900 dark:text-slate-100">{{ phrase.en }}</span>
+            <span class="font-mono font-semibold text-slate-900 dark:text-slate-100">{{ expectedAnswer }}</span>
           </p>
         </div>
         <p v-if="phrase.phonetic" class="text-xs text-muted font-mono mt-2">{{ phrase.phonetic }}</p>
