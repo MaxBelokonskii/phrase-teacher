@@ -25,7 +25,7 @@ const themeLabel = computed(() => {
         <span class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-brand-600 text-white shadow-soft transition-transform group-hover:scale-105">
           <span class="font-display font-bold text-lg">P</span>
         </span>
-        <span class="font-display font-bold text-base hidden sm:inline">Phrase Teacher</span>
+        <span class="font-display font-bold text-base hidden sm:inline whitespace-nowrap">Phrase Teacher</span>
       </RouterLink>
 
       <nav class="hidden md:flex items-center gap-1 text-sm whitespace-nowrap">
