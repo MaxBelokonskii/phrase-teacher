@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
-import { Sun, Moon, Settings as SettingsIcon, MonitorSmartphone, Home, BookOpen, PlusCircle, BarChart3 } from 'lucide-vue-next'
+import { Sun, Moon, Settings as SettingsIcon, MonitorSmartphone, Home, BookOpen, PlusCircle, BarChart3, MessageSquareText } from 'lucide-vue-next'
 import { useSettingsStore } from '@/stores/useSettingsStore'
 import { useDarkMode } from '@/composables/useDarkMode'
 
@@ -44,6 +44,14 @@ const themeLabel = computed(() => {
         >
           <BookOpen class="w-4 h-4" />
           Разговорник
+        </RouterLink>
+        <RouterLink
+          :to="{ name: 'scenarios' }"
+          class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors flex items-center gap-1.5"
+          active-class="bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300 font-medium"
+        >
+          <MessageSquareText class="w-4 h-4" />
+          Сценарии
         </RouterLink>
         <RouterLink
           :to="{ name: 'my-phrases' }"

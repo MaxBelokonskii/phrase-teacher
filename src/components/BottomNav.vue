@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import { Home, BookOpen, PlusCircle } from 'lucide-vue-next'
+import { Home, BookOpen, PlusCircle, MessageSquareText } from 'lucide-vue-next'
 
 const items = [
   { to: { name: 'home' }, label: 'Главная', icon: Home },
   { to: { name: 'phrasebook' }, label: 'Разговорник', icon: BookOpen },
+  { to: { name: 'scenarios' }, label: 'Сценарии', icon: MessageSquareText },
   { to: { name: 'my-phrases' }, label: 'Мои', icon: PlusCircle },
 ] as const
 </script>
