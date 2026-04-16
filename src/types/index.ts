@@ -10,6 +10,11 @@ export type CategoryId =
   | 'money_time'
   | 'emergency'
   | 'turkish'
+  | 'directions'
+  | 'hammam'
+  | 'complaints'
+  | 'socializing'
+  | 'weather'
 
 export interface Category {
   id: CategoryId

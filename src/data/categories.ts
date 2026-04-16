@@ -89,6 +89,46 @@ export const categories: Category[] = [
     color: 'teal-500',
     hex: '#14B8A6',
   },
+  {
+    id: 'directions',
+    name: 'Навигация и дорога',
+    description: 'Как пройти, повернуть, найти нужное место',
+    icon: 'compass',
+    color: 'cyan-500',
+    hex: '#06B6D4',
+  },
+  {
+    id: 'hammam',
+    name: 'Хаммам и спа',
+    description: 'Турецкая баня, процедуры и бронирование',
+    icon: 'droplets',
+    color: 'sky-400',
+    hex: '#38BDF8',
+  },
+  {
+    id: 'complaints',
+    name: 'Жалобы и проблемы',
+    description: 'Когда что-то идёт не так: отель, ресторан, магазин',
+    icon: 'message-circle-warning',
+    color: 'yellow-500',
+    hex: '#EAB308',
+  },
+  {
+    id: 'socializing',
+    name: 'Общение и знакомства',
+    description: 'Глубже, чем «привет»: разговор, планы, хобби',
+    icon: 'users',
+    color: 'fuchsia-500',
+    hex: '#D946EF',
+  },
+  {
+    id: 'weather',
+    name: 'Погода и одежда',
+    description: 'Жара, дождь, что надеть — полезно для планов на день',
+    icon: 'cloud-sun',
+    color: 'blue-400',
+    hex: '#60A5FA',
+  },
 ]
 
 export function getCategoryById(id: string): Category | undefined {

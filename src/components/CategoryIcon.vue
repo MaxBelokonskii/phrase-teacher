@@ -12,6 +12,11 @@ import {
   Wallet,
   ShieldAlert,
   HeartHandshake,
+  Compass,
+  Droplets,
+  MessageCircleWarning,
+  Users,
+  CloudSun,
   HelpCircle,
 } from 'lucide-vue-next'
 
@@ -27,6 +32,11 @@ const ICONS: Record<string, unknown> = {
   wallet: Wallet,
   'shield-alert': ShieldAlert,
   'heart-handshake': HeartHandshake,
+  compass: Compass,
+  droplets: Droplets,
+  'message-circle-warning': MessageCircleWarning,
+  users: Users,
+  'cloud-sun': CloudSun,
 }
 
 interface Props {
