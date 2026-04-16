@@ -11,6 +11,7 @@ import {
   Landmark,
   Wallet,
   ShieldAlert,
+  HeartHandshake,
   HelpCircle,
 } from 'lucide-vue-next'
 
@@ -25,6 +26,7 @@ const ICONS: Record<string, unknown> = {
   landmark: Landmark,
   wallet: Wallet,
   'shield-alert': ShieldAlert,
+  'heart-handshake': HeartHandshake,
 }
 
 interface Props {
