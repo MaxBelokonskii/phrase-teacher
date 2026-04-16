@@ -1372,5 +1372,145 @@
     "phonetic": "/kæn aɪ juːz jʊr foʊn/",
     "note": "Если ваш телефон умер, а нужно срочно позвонить.",
     "difficulty": 2
+  },
+
+  {
+    "id": "turkish_001",
+    "category": "turkish",
+    "ru": "Здравствуйте!",
+    "en": "Merhaba!",
+    "phonetic": "/mɛɾˈhɑbɑ/",
+    "note": "Универсальное приветствие на турецком. Работает в любое время дня. Местные сразу улыбаются.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_002",
+    "category": "turkish",
+    "ru": "Спасибо!",
+    "en": "Teşekkür ederim!",
+    "phonetic": "/tɛʃɛkˈkyɾ ɛdɛˈɾim/",
+    "note": "Полная форма благодарности. Короткая версия — 'Teşekkürler' (тэшэккюрлер). Произносите как получается — оценят сам факт.",
+    "difficulty": 1,
+    "alternatives": ["Teşekkürler"]
+  },
+  {
+    "id": "turkish_003",
+    "category": "turkish",
+    "ru": "Пожалуйста (при просьбе).",
+    "en": "Lütfen.",
+    "phonetic": "/lytˈfɛn/",
+    "note": "Используется при просьбе: 'Чай, лютфен'. Эквивалент 'please'.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_004",
+    "category": "turkish",
+    "ru": "Да.",
+    "en": "Evet.",
+    "phonetic": "/ɛˈvɛt/",
+    "note": "Простое 'да'. Кивок головой в Турции иногда заменяется лёгким наклоном вперёд.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_005",
+    "category": "turkish",
+    "ru": "Нет.",
+    "en": "Hayır.",
+    "phonetic": "/hɑˈjɯɾ/",
+    "note": "Простое 'нет'. Турки иногда показывают 'нет' поднятием бровей и лёгким цоканьем — не обижайтесь, это норма.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_006",
+    "category": "turkish",
+    "ru": "Извините / Простите.",
+    "en": "Affedersiniz.",
+    "phonetic": "/ɑfːɛdɛɾsiˈniz/",
+    "note": "Вежливое обращение к незнакомцу. Более короткий вариант 'Pardon' тоже понимают.",
+    "difficulty": 2,
+    "alternatives": ["Pardon"]
+  },
+  {
+    "id": "turkish_007",
+    "category": "turkish",
+    "ru": "До свидания!",
+    "en": "Güle güle!",
+    "phonetic": "/ɡyˈlɛ ɡyˈlɛ/",
+    "note": "Говорит тот, кто остаётся. Тот, кто уходит, говорит 'Hoşça kal' (хошча каль). Но 'Güle güle' поймут в любом случае.",
+    "difficulty": 1,
+    "alternatives": ["Hoşça kal"]
+  },
+  {
+    "id": "turkish_008",
+    "category": "turkish",
+    "ru": "Сколько стоит?",
+    "en": "Ne kadar?",
+    "phonetic": "/nɛ kɑˈdɑɾ/",
+    "note": "Самая полезная фраза на базаре. Показываете на товар и говорите 'Ne kadar?' — продавец ответит цифрой или покажет на калькуляторе.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_009",
+    "category": "turkish",
+    "ru": "Очень вкусно!",
+    "en": "Çok lezzetli!",
+    "phonetic": "/tʃok lɛzːɛtˈli/",
+    "note": "Комплимент еде в ресторане или кафе. Повар/официант расцветёт.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_010",
+    "category": "turkish",
+    "ru": "Очень красиво!",
+    "en": "Çok güzel!",
+    "phonetic": "/tʃok ɡyˈzɛl/",
+    "note": "Универсальный комплимент: виду, еде, товару. 'Güzel' значит 'красивый/красивая/красиво'.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_011",
+    "category": "turkish",
+    "ru": "Помощь / Помогите!",
+    "en": "Yardım!",
+    "phonetic": "/jɑɾˈdɯm/",
+    "note": "В экстренной ситуации. 'Yardım edin!' (ярдым эдин) — более полная форма: 'Помогите мне!'",
+    "difficulty": 2,
+    "alternatives": ["Yardım edin!"]
+  },
+  {
+    "id": "turkish_012",
+    "category": "turkish",
+    "ru": "Чай, пожалуйста.",
+    "en": "Bir çay, lütfen.",
+    "phonetic": "/biɾ tʃɑj lytˈfɛn/",
+    "note": "Заказ чая. 'Bir' = один. Для двух скажите 'İki çay' (ики чай).",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_013",
+    "category": "turkish",
+    "ru": "Счёт, пожалуйста.",
+    "en": "Hesap, lütfen.",
+    "phonetic": "/hɛˈsɑp lytˈfɛn/",
+    "note": "Просьба принести счёт в кафе/ресторане. Также можно нарисовать прямоугольник в воздухе рукой.",
+    "difficulty": 1
+  },
+  {
+    "id": "turkish_014",
+    "category": "turkish",
+    "ru": "Я не понимаю.",
+    "en": "Anlamıyorum.",
+    "phonetic": "/ɑnlɑmɯˈjoɾum/",
+    "note": "Когда турецкая речь ставит в тупик. После этого обычно переходят на английский или жесты.",
+    "difficulty": 2
+  },
+  {
+    "id": "turkish_015",
+    "category": "turkish",
+    "ru": "Добро пожаловать! / Пожалуйста (в ответ на спасибо).",
+    "en": "Buyurun.",
+    "phonetic": "/bujuˈɾun/",
+    "note": "Многозначное слово: 'пожалуйста' (в ответ на спасибо), 'прошу вас' (приглашение войти/сесть), 'вот, держите' (при передаче). Услышите его постоянно.",
+    "difficulty": 2
   }
 ]

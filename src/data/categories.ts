@@ -81,6 +81,14 @@ export const categories: Category[] = [
     color: 'rose-600',
     hex: '#E11D48',
   },
+  {
+    id: 'turkish',
+    name: 'Турецкие вставки',
+    description: 'Ключевые турецкие слова — пара фраз на местном языке меняет всё',
+    icon: 'heart-handshake',
+    color: 'teal-500',
+    hex: '#14B8A6',
+  },
 ]
 
 export function getCategoryById(id: string): Category | undefined {

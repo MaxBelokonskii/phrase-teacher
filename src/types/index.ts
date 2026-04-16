@@ -9,6 +9,7 @@ export type CategoryId =
   | 'sightseeing'
   | 'money_time'
   | 'emergency'
+  | 'turkish'
 
 export interface Category {
   id: CategoryId
