@@ -2,10 +2,12 @@ import { ref, computed } from 'vue'
 import type { CategoryId, Phrase, QuizAnswer } from '@/types'
 
 export type QuizMode = 'multiple-choice' | 'typing'
+export type QuizDirection = 'ru-en' | 'en-ru'
 
 interface QuizSessionState {
   category: CategoryId | 'all'
   mode: QuizMode
+  direction: QuizDirection
   phrases: Phrase[]
   answers: QuizAnswer[]
   startedAt: string
@@ -45,10 +47,11 @@ if (session.value === null) {
 }
 
 export function useQuizSession() {
-  function start(input: { category: CategoryId | 'all'; mode: QuizMode; phrases: Phrase[] }) {
+  function start(input: { category: CategoryId | 'all'; mode: QuizMode; direction?: QuizDirection; phrases: Phrase[] }) {
     session.value = {
       category: input.category,
       mode: input.mode,
+      direction: input.direction ?? 'ru-en',
       phrases: input.phrases,
       answers: [],
       startedAt: new Date().toISOString(),

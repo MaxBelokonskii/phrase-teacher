@@ -2,6 +2,7 @@
 import { ref, computed, watch } from 'vue'
 import { Check, X, Volume2 } from 'lucide-vue-next'
 import type { Phrase } from '@/types'
+import type { QuizDirection } from '@/composables/useQuizSession'
 import { shuffle, pickRandom } from '@/utils/shuffle'
 import { useSpeech } from '@/composables/useSpeech'
 
@@ -9,9 +10,10 @@ interface Props {
   phrase: Phrase
   /** All phrases that can be used as distractors (typically same category). */
   pool: Phrase[]
+  direction?: QuizDirection
 }
 
-const props = defineProps<Props>()
+const props = withDefaults(defineProps<Props>(), { direction: 'ru-en' })
 
 const emit = defineEmits<{
   answer: [correct: boolean]
@@ -21,14 +23,25 @@ const selected = ref<string | null>(null)
 const locked = ref(false)
 const { pronounce, isSupported } = useSpeech()
 
+const isReverse = computed(() => props.direction === 'en-ru')
+
+// Question text shown at top
+const questionText = computed(() => (isReverse.value ? props.phrase.en : props.phrase.ru))
+const questionLabel = computed(() =>
+  isReverse.value ? 'Переведите на русский' : 'Переведите на английский',
+)
+
+// Correct answer and distractors use the target language
+const correctAnswer = computed(() => (isReverse.value ? props.phrase.ru : props.phrase.en))
+
 const options = computed<string[]>(() => {
-  // Generate 4 options: correct + 3 distractors from pool (excluding current phrase).
+  const field = isReverse.value ? 'ru' : 'en'
   const distractors = props.pool
     .filter((p) => p.id !== props.phrase.id)
-    .map((p) => p.en)
-  const uniqueDistractors = Array.from(new Set(distractors)).filter((en) => en !== props.phrase.en)
+    .map((p) => p[field])
+  const uniqueDistractors = Array.from(new Set(distractors)).filter((v) => v !== correctAnswer.value)
   const picked = pickRandom(uniqueDistractors, 3)
-  return shuffle([props.phrase.en, ...picked])
+  return shuffle([correctAnswer.value, ...picked])
 })
 
 watch(
@@ -40,7 +53,7 @@ watch(
 )
 
 function isCorrect(option: string): boolean {
-  return option === props.phrase.en
+  return option === correctAnswer.value
 }
 
 function pick(option: string) {
@@ -51,7 +64,6 @@ function pick(option: string) {
   if (isSupported.value && correct) {
     pronounce(props.phrase.en)
   }
-  // Brief pause so user sees feedback, then advance.
   setTimeout(() => {
     emit('answer', correct)
   }, 1200)
@@ -75,9 +87,9 @@ function classFor(option: string): string {
   <div class="space-y-5">
     <!-- Question -->
     <div class="card p-6 text-center">
-      <p class="text-xs uppercase tracking-wider text-muted font-semibold mb-3">Переведите на английский</p>
+      <p class="text-xs uppercase tracking-wider text-muted font-semibold mb-3">{{ questionLabel }}</p>
       <p class="text-2xl md:text-3xl font-display font-semibold text-slate-900 dark:text-slate-100">
-        {{ phrase.ru }}
+        {{ questionText }}
       </p>
       <button
         v-if="locked && isSupported"

@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
 import { useRoute, useRouter, RouterLink } from 'vue-router'
-import { ChevronLeft, MousePointerClick, Keyboard } from 'lucide-vue-next'
+import { ChevronLeft, MousePointerClick, Keyboard, ArrowRightLeft } from 'lucide-vue-next'
 import { getCategoryById } from '@/data/categories'
 import { usePhrasesStore } from '@/stores/usePhrasesStore'
 import { useProgressStore } from '@/stores/useProgressStore'
-import { useQuizSession, type QuizMode } from '@/composables/useQuizSession'
+import { useQuizSession, type QuizMode, type QuizDirection } from '@/composables/useQuizSession'
 import { shuffle } from '@/utils/shuffle'
 import AppButton from '@/components/ui/AppButton.vue'
 import QuizMultipleChoice from '@/components/quiz/QuizMultipleChoice.vue'
@@ -21,6 +21,7 @@ const categoryId = computed(() => String(route.params.category))
 const category = computed(() => getCategoryById(categoryId.value))
 
 const mode = ref<QuizMode | null>(null)
+const direction = ref<QuizDirection>('ru-en')
 const cursor = ref(0)
 
 if (!category.value) {
@@ -39,7 +40,6 @@ const progressPercent = computed(() =>
 
 function startQuiz(selectedMode: QuizMode) {
   if (!category.value) return
-  // Limit to 10 phrases per session, or all if category smaller
   const phrases = shuffle(categoryPhrases.value).slice(0, Math.min(10, categoryPhrases.value.length))
   sessionPhrases.value = phrases
   cursor.value = 0
@@ -47,6 +47,7 @@ function startQuiz(selectedMode: QuizMode) {
   start({
     category: category.value.id,
     mode: selectedMode,
+    direction: direction.value,
     phrases,
   })
 }
@@ -69,7 +70,6 @@ function onAnswer(correct: boolean, verdict?: 'exact' | 'almost' | 'wrong', user
   }
 }
 
-// Detect "again"/"retry-wrong" mode from query
 watch(
   () => route.query.mode,
   (val) => {
@@ -101,6 +101,40 @@ watch(
           из категории «{{ category.name }}»
         </p>
       </div>
+
+      <!-- Direction toggle -->
+      <div class="card p-4">
+        <p class="text-xs uppercase tracking-wider text-muted font-semibold mb-3">Направление перевода</p>
+        <div class="grid grid-cols-2 gap-2">
+          <button
+            type="button"
+            class="p-3 rounded-xl border-2 transition-all cursor-pointer text-center"
+            :class="direction === 'ru-en'
+              ? 'border-brand-500 bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300 font-medium'
+              : 'border-slate-200 dark:border-slate-700 hover:border-slate-300'"
+            @click="direction = 'ru-en'"
+          >
+            <span class="text-sm font-display font-semibold">РУС → ENG</span>
+            <p class="text-xs text-muted mt-0.5">Перевести на английский</p>
+          </button>
+          <button
+            type="button"
+            class="p-3 rounded-xl border-2 transition-all cursor-pointer text-center"
+            :class="direction === 'en-ru'
+              ? 'border-brand-500 bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300 font-medium'
+              : 'border-slate-200 dark:border-slate-700 hover:border-slate-300'"
+            @click="direction = 'en-ru'"
+          >
+            <span class="text-sm font-display font-semibold">
+              <ArrowRightLeft class="inline w-4 h-4 mb-0.5" />
+              ENG → РУС
+            </span>
+            <p class="text-xs text-muted mt-0.5">Понять английскую фразу</p>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mode cards -->
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <button
           type="button"
@@ -149,11 +183,13 @@ watch(
         v-if="mode === 'multiple-choice'"
         :phrase="currentPhrase"
         :pool="categoryPhrases"
+        :direction="session?.direction ?? 'ru-en'"
         @answer="(c) => onAnswer(c)"
       />
       <QuizTyping
         v-else-if="mode === 'typing'"
         :phrase="currentPhrase"
+        :direction="session?.direction ?? 'ru-en'"
         @answer="(c, v, i) => onAnswer(c, v, i)"
       />
     </div>
