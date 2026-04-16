@@ -28,7 +28,7 @@ const themeLabel = computed(() => {
         <span class="font-display font-bold text-base hidden sm:inline">Phrase Teacher</span>
       </RouterLink>
 
-      <nav class="hidden md:flex items-center gap-1 text-sm">
+      <nav class="hidden md:flex items-center gap-1 text-sm whitespace-nowrap">
         <RouterLink
           :to="{ name: 'home' }"
           class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors flex items-center gap-1.5"
